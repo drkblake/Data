@@ -1,4 +1,4 @@
-7,TeamBA,TeamERA,Wins,Losses,Other,PctWins,Division
+Team,TeamBA,TeamERA,Wins,Losses,Other,PctWins,Division
 A&M-Corpus Christi (Southland),0.291,316,24,30,,0.444,Division 1
 Abilene Christian (WAC),0.288,379,35,24,,0.593,Division 1
 Air Force (Mountain West),0.299,420,28,31,,0.475,Division 1
@@ -16,17 +16,17 @@ Arkansas St. (Sun Belt),0.276,357,20,31,,0.392,Division 1
 Army West Point (Patriot),0.298,234,38,18,,0.679,Division 1
 Auburn (SEC),0.287,326,34,23,1,0.596,Division 1
 Austin Peay (ASUN),0.297,382,26,32,,0.448,Division 1
-Ball St. (MAC),0.282,345,36,23,,0.610,Division 1
+Ball St. (MAC),0.282,345,36,23,,0.61,Division 1
 Baylor (Big 12),0.254,344,20,35,,0.364,Division 1
-Belmont (MVC),0.255,313,27,33,,0.450,Division 1
-Bethune-Cookman (SWAC),0.296,336,33,27,,0.550,Division 1
+Belmont (MVC),0.255,313,27,33,,0.45,Division 1
+Bethune-Cookman (SWAC),0.296,336,33,27,,0.55,Division 1
 Binghamton (America East),0.295,288,29,23,,0.558,Division 1
 Boston College (ACC),0.271,307,37,20,,0.649,Division 1
-Bowling Green (MAC),0.243,286,20,30,,0.400,Division 1
+Bowling Green (MAC),0.243,286,20,30,,0.4,Division 1
 Bradley (MVC),0.263,295,16,32,,0.333,Division 1
 Brown (Ivy League),0.251,216,12,26,,0.316,Division 1
-Bryant (America East),0.263,291,26,24,,0.520,Division 1
-Bucknell (Patriot),0.285,292,23,23,1,0.500,Division 1
+Bryant (America East),0.263,291,26,24,,0.52,Division 1
+Bucknell (Patriot),0.285,292,23,23,1,0.5,Division 1
 Butler (Big East),0.243,419,12,43,,0.218,Division 1
 BYU (WCC),0.289,373,24,28,,0.462,Division 1
 Cal Poly (Big West),0.277,328,21,35,,0.375,Division 1
@@ -34,11 +34,11 @@ Cal St. Fullerton (Big West),0.277,286,32,24,,0.571,Division 1
 California (Pac-12),0.262,285,24,28,,0.462,Division 1
 California Baptist (WAC),0.282,311,28,30,,0.483,Division 1
 Campbell (Big South),0.318,278,46,15,,0.754,Division 1
-Canisius (MAAC),0.284,292,26,25,1,0.510,Division 1
+Canisius (MAAC),0.284,292,26,25,1,0.51,Division 1
 Central Ark. (ASUN),0.269,282,23,31,,0.426,Division 1
-Central Conn. St. (NEC),0.298,259,36,14,,0.720,Division 1
+Central Conn. St. (NEC),0.298,259,36,14,,0.72,Division 1
 Central Mich. (MAC),0.259,265,34,23,,0.596,Division 1
-Charleston So. (Big South),0.259,278,22,28,,0.440,Division 1
+Charleston So. (Big South),0.259,278,22,28,,0.44,Division 1
 Charlotte (CUSA),0.263,307,36,28,,0.563,Division 1
 Cincinnati (AAC),0.247,358,24,33,,0.421,Division 1
 Clemson (ACC),0.306,268,44,19,,0.698,Division 1
@@ -47,7 +47,7 @@ Col. of Charleston (CAA),0.281,263,36,22,,0.621,Division 1
 Columbia (Ivy League),0.306,284,23,22,,0.511,Division 1
 Coppin St. (NEC),0.267,326,21,31,,0.404,Division 1
 Cornell (Ivy League),0.248,213,9,26,,0.257,Division 1
-Creighton (Big East),0.254,261,25,24,,0.510,Division 1
+Creighton (Big East),0.254,261,25,24,,0.51,Division 1
 CSU Bakersfield (Big West),0.27,299,18,34,,0.346,Division 1
 CSUN (Big West),0.311,236,34,17,,0.667,Division 1
 Dartmouth (Ivy League),0.228,353,3,38,,0.073,Division 1
@@ -61,12 +61,12 @@ East Carolina (AAC),0.292,286,47,19,,0.712,Division 1
 Eastern Ill. (OVC),0.287,283,38,21,,0.644,Division 1
 Eastern Ky. (ASUN),0.262,358,29,30,,0.492,Division 1
 Eastern Mich. (MAC),0.297,327,27,26,,0.509,Division 1
-Elon (CAA),0.274,246,33,22,,0.600,Division 1
+Elon (CAA),0.274,246,33,22,,0.6,Division 1
 ETSU (SoCon),0.302,305,26,29,,0.473,Division 1
 Evansville (MVC),0.254,296,37,24,,0.607,Division 1
 Fairfield (MAAC),0.32,308,37,18,,0.673,Division 1
 FDU (NEC),0.288,312,31,21,1,0.596,Division 1
-FGCU (ASUN),0.322,346,42,18,,0.700,Division 1
+FGCU (ASUN),0.322,346,42,18,,0.7,Division 1
 FIU (CUSA),0.281,384,21,34,,0.382,Division 1
 Fla. Atlantic (CUSA),0.287,304,34,25,,0.576,Division 1
 Florida (SEC),0.29,317,54,17,,0.761,Division 1
@@ -88,13 +88,13 @@ Grand Canyon (WAC),0.296,309,37,21,,0.638,Division 1
 Hartford (DI Independent),0.219,281,4,33,,0.108,Division 1
 Harvard (Ivy League),0.276,243,20,24,,0.455,Division 1
 Hawaii (Big West),0.278,231,29,20,,0.592,Division 1
-High Point (Big South),0.267,364,20,34,,0.370,Division 1
-Hofstra (CAA),0.305,317,26,26,,0.500,Division 1
+High Point (Big South),0.267,364,20,34,,0.37,Division 1
+Hofstra (CAA),0.305,317,26,26,,0.5,Division 1
 Holy Cross (Patriot),0.259,324,16,35,,0.314,Division 1
-Houston (AAC),0.29,365,36,23,,0.610,Division 1
+Houston (AAC),0.29,365,36,23,,0.61,Division 1
 Houston Christian (Southland),0.272,389,11,37,,0.229,Division 1
 Illinois (Big Ten),0.271,301,25,27,,0.481,Division 1
-Illinois St. (MVC),0.27,344,20,30,,0.400,Division 1
+Illinois St. (MVC),0.27,344,20,30,,0.4,Division 1
 Indiana (Big Ten),0.298,326,43,20,,0.683,Division 1
 Indiana St. (MVC),0.272,238,45,17,,0.726,Division 1
 Iona (MAAC),0.267,457,13,38,,0.255,Division 1
@@ -110,13 +110,13 @@ Kent St. (MAC),0.303,239,42,16,,0.724,Division 1
 Kentucky (SEC),0.29,253,40,21,,0.656,Division 1
 Lafayette (Patriot),0.243,391,15,37,,0.288,Division 1
 Lamar University (Southland),0.278,218,32,23,,0.582,Division 1
-Lehigh (Patriot),0.297,234,24,26,,0.480,Division 1
+Lehigh (Patriot),0.297,234,24,26,,0.48,Division 1
 Liberty (ASUN),0.263,315,27,31,,0.466,Division 1
 Lipscomb (ASUN),0.256,313,36,26,,0.581,Division 1
 Little Rock (OVC),0.299,263,31,23,,0.574,Division 1
 LIU (NEC),0.273,432,19,36,,0.345,Division 1
 LMU (CA) (WCC),0.266,276,29,24,,0.547,Division 1
-Long Beach St. (Big West),0.273,241,33,22,,0.600,Division 1
+Long Beach St. (Big West),0.273,241,33,22,,0.6,Division 1
 Longwood (Big South),0.256,302,23,31,,0.426,Division 1
 Louisiana (Sun Belt),0.29,308,41,24,,0.631,Division 1
 Louisiana Tech (CUSA),0.253,355,28,31,,0.475,Division 1
@@ -133,8 +133,8 @@ Memphis (AAC),0.256,295,29,28,,0.509,Division 1
 Mercer (SoCon),0.291,407,33,25,,0.569,Division 1
 Miami (FL) (ACC),0.296,311,42,21,,0.667,Division 1
 Miami (OH) (MAC),0.262,366,21,35,,0.375,Division 1
-Michigan (Big Ten),0.261,320,28,28,,0.500,Division 1
-Michigan St. (Big Ten),0.299,287,33,22,,0.600,Division 1
+Michigan (Big Ten),0.261,320,28,28,,0.5,Division 1
+Michigan St. (Big Ten),0.299,287,33,22,,0.6,Division 1
 Middle Tenn. (CUSA),0.289,342,27,29,,0.482,Division 1
 Milwaukee (Horizon),0.26,287,25,32,,0.439,Division 1
 Minnesota (Big Ten),0.255,307,18,34,,0.346,Division 1
@@ -147,26 +147,26 @@ Morehead St. (OVC),0.276,311,36,20,,0.643,Division 1
 Mount St. Mary's (MAAC),0.301,414,25,27,,0.481,Division 1
 Murray St. (MVC),0.274,268,31,28,,0.525,Division 1
 N.C. A&T (CAA),0.265,298,19,28,,0.404,Division 1
-Navy (Patriot),0.262,264,23,27,,0.460,Division 1
+Navy (Patriot),0.262,264,23,27,,0.46,Division 1
 NC State (ACC),0.298,248,36,21,,0.632,Division 1
 Nebraska (Big Ten),0.294,255,33,23,1,0.589,Division 1
 Nevada (Mountain West),0.259,322,20,33,,0.377,Division 1
-New Mexico (Mountain West),0.329,288,26,25,,0.510,Division 1
+New Mexico (Mountain West),0.329,288,26,25,,0.51,Division 1
 New Mexico St. (WAC),0.285,373,14,37,,0.275,Division 1
-New Orleans (Southland),0.293,298,36,24,,0.600,Division 1
+New Orleans (Southland),0.293,298,36,24,,0.6,Division 1
 Niagara (MAAC),0.281,312,24,22,1,0.522,Division 1
 Nicholls (Southland),0.289,266,34,24,,0.586,Division 1
 NIU (MAC),0.251,442,10,43,,0.189,Division 1
 NJIT (America East),0.24,281,22,31,,0.415,Division 1
 Norfolk St. (NEC),0.253,403,9,42,,0.176,Division 1
 North Ala. (ASUN),0.255,405,14,37,,0.275,Division 1
-North Carolina (ACC),0.282,276,36,24,,0.600,Division 1
+North Carolina (ACC),0.282,276,36,24,,0.6,Division 1
 North Dakota St. (Summit League),0.273,284,23,30,,0.434,Division 1
 North Florida (ASUN),0.289,337,28,27,,0.509,Division 1
 Northeastern (CAA),0.295,221,44,16,,0.733,Division 1
 Northern Colo. (Summit League),0.268,389,11,34,,0.244,Division 1
 Northern Ky. (Horizon),0.291,375,30,27,,0.526,Division 1
-Northwestern (Big Ten),0.246,408,10,40,,0.200,Division 1
+Northwestern (Big Ten),0.246,408,10,40,,0.2,Division 1
 Northwestern St. (Southland),0.266,293,29,27,,0.518,Division 1
 Notre Dame (ACC),0.249,243,30,24,,0.556,Division 1
 Oakland (Horizon),0.263,416,29,31,,0.483,Division 1
@@ -181,8 +181,8 @@ Oral Roberts (Summit League),0.321,261,52,14,,0.788,Division 1
 Oregon (Pac-12),0.298,328,41,22,,0.651,Division 1
 Oregon St. (Pac-12),0.294,284,41,20,,0.672,Division 1
 Pacific (WCC),0.279,363,14,35,,0.286,Division 1
-Penn (Ivy League),0.287,203,34,16,,0.680,Division 1
-Penn St. (Big Ten),0.281,294,25,25,,0.500,Division 1
+Penn (Ivy League),0.287,203,34,16,,0.68,Division 1
+Penn St. (Big Ten),0.281,294,25,25,,0.5,Division 1
 Pepperdine (WCC),0.271,301,19,30,,0.388,Division 1
 Pittsburgh (ACC),0.256,379,24,31,,0.436,Division 1
 Portland (WCC),0.304,275,31,23,,0.574,Division 1
@@ -203,25 +203,25 @@ Sacred Heart (NEC),0.288,320,28,30,,0.483,Division 1
 Saint Joseph's (Atlantic 10),0.305,335,28,24,1,0.538,Division 1
 Saint Louis (Atlantic 10),0.296,308,33,23,,0.589,Division 1
 Saint Mary's (CA) (WCC),0.267,260,23,28,,0.451,Division 1
-Saint Peter's (MAAC),0.264,505,9,41,,0.180,Division 1
+Saint Peter's (MAAC),0.264,505,9,41,,0.18,Division 1
 Sam Houston (WAC),0.316,329,39,25,,0.609,Division 1
 Samford (SoCon),0.281,352,37,25,,0.597,Division 1
-San Diego (WCC),0.273,285,24,25,1,0.490,Division 1
+San Diego (WCC),0.273,285,24,25,1,0.49,Division 1
 San Diego St. (Mountain West),0.249,247,24,29,,0.453,Division 1
 San Francisco (WCC),0.26,285,18,29,,0.383,Division 1
 San Jose St. (Mountain West),0.282,335,31,27,,0.534,Division 1
 Santa Clara (WCC),0.298,255,36,20,,0.643,Division 1
 Seattle U (WAC),0.28,326,21,32,,0.396,Division 1
 Seton Hall (Big East),0.291,237,31,24,,0.564,Division 1
-SFA (WAC),0.288,404,22,28,,0.440,Division 1
+SFA (WAC),0.288,404,22,28,,0.44,Division 1
 Siena (MAAC),0.243,410,14,41,,0.255,Division 1
 SIUE (OVC),0.269,329,26,28,,0.481,Division 1
 South Alabama (Sun Belt),0.276,336,23,31,,0.426,Division 1
 South Carolina (SEC),0.273,252,42,21,,0.667,Division 1
 South Dakota St. (Summit League),0.282,305,24,28,,0.462,Division 1
-South Fla. (AAC),0.275,396,21,39,,0.350,Division 1
+South Fla. (AAC),0.275,396,21,39,,0.35,Division 1
 Southeast Mo. St. (OVC),0.261,292,26,30,,0.464,Division 1
-Southeastern La. (Southland),0.245,248,25,25,,0.500,Division 1
+Southeastern La. (Southland),0.245,248,25,25,,0.5,Division 1
 Southern California (Pac-12),0.285,251,34,23,1,0.596,Division 1
 Southern Ill. (MVC),0.286,309,30,27,,0.526,Division 1
 Southern Miss. (Sun Belt),0.283,291,46,20,,0.697,Division 1
@@ -237,7 +237,7 @@ Tennessee Tech (OVC),0.277,367,21,34,,0.382,Division 1
 Texas (Big 12),0.293,263,42,22,,0.656,Division 1
 Texas A&M (SEC),0.27,354,38,27,,0.585,Division 1
 Texas Southern (SWAC),0.312,278,31,22,,0.585,Division 1
-Texas St. (Sun Belt),0.27,322,36,23,,0.610,Division 1
+Texas St. (Sun Belt),0.27,322,36,23,,0.61,Division 1
 Texas Tech (Big 12),0.303,314,41,23,,0.641,Division 1
 The Citadel (SoCon),0.278,313,23,31,,0.426,Division 1
 Toledo (MAC),0.28,346,26,29,,0.473,Division 1
@@ -259,12 +259,12 @@ ULM (Sun Belt),0.252,379,17,37,,0.315,Division 1
 UMass Lowell (America East),0.265,364,20,35,,0.364,Division 1
 UMBC (America East),0.29,344,30,27,,0.526,Division 1
 UMES (NEC),0.231,320,18,37,,0.327,Division 1
-UNC Asheville (Big South),0.278,334,26,26,,0.500,Division 1
+UNC Asheville (Big South),0.278,334,26,26,,0.5,Division 1
 UNC Greensboro (SoCon),0.271,385,25,34,,0.424,Division 1
 UNCW (CAA),0.295,324,34,23,,0.596,Division 1
 UNLV (Mountain West),0.283,321,21,30,,0.412,Division 1
 USC Upstate (Big South),0.284,314,38,22,,0.633,Division 1
-UT Arlington (WAC),0.289,387,29,29,,0.500,Division 1
+UT Arlington (WAC),0.289,387,29,29,,0.5,Division 1
 UT Martin (OVC),0.287,332,22,34,,0.393,Division 1
 Utah (Pac-12),0.282,379,22,32,1,0.407,Division 1
 Utah Valley (WAC),0.294,334,34,24,,0.586,Division 1
@@ -288,7 +288,7 @@ Western Ky. (CUSA),0.287,288,33,26,,0.559,Division 1
 Western Mich. (MAC),0.279,380,21,31,,0.404,Division 1
 Wichita St. (AAC),0.302,232,30,25,,0.545,Division 1
 William & Mary (CAA),0.269,232,32,25,,0.561,Division 1
-Winthrop (Big South),0.277,312,28,28,,0.500,Division 1
+Winthrop (Big South),0.277,312,28,28,,0.5,Division 1
 Wofford (SoCon),0.314,303,40,19,,0.678,Division 1
 Wright St. (Horizon),0.274,293,39,23,,0.629,Division 1
 Xavier (Big East),0.275,284,39,25,,0.609,Division 1
@@ -304,17 +304,17 @@ Alliance (CACC),0.211,14.51,2,45,,0.043,Division 2
 American Int'l (NE10),0.312,7.86,23,24,,0.489,Division 2
 Anderson (SC) (SAC),0.297,5.58,25,27,,0.481,Division 2
 Angelo St. (Lone Star),0.342,3.41,56,9,,0.862,Division 2
-Ark.-Fort Smith (Lone Star),0.243,7.33,14,36,,0.280,Division 2
+Ark.-Fort Smith (Lone Star),0.243,7.33,14,36,,0.28,Division 2
 Ark.-Monticello (GAC),0.291,6.02,31,21,,0.596,Division 2
 Arkansas Tech (GAC),0.311,6.2,32,22,,0.593,Division 2
 Ashland (G-MAC),0.321,4.8,33,21,,0.611,Division 2
 Assumption (NE10),0.255,6.44,15,32,,0.319,Division 2
-Augusta (Peach Belt),0.293,6.48,26,24,,0.520,Division 2
+Augusta (Peach Belt),0.293,6.48,26,24,,0.52,Division 2
 Augustana (SD) (NSIC),0.287,4.37,47,21,,0.691,Division 2
-AUM (Gulf South),0.287,5.75,19,31,,0.380,Division 2
+AUM (Gulf South),0.287,5.75,19,31,,0.38,Division 2
 Azusa Pacific (PacWest),0.283,5.61,35,19,,0.648,Division 2
 Barry (Sunshine State),0.316,5.16,35,19,,0.648,Division 2
-Barton (Conference Carolinas),0.302,4.76,30,20,,0.600,Division 2
+Barton (Conference Carolinas),0.302,4.76,30,20,,0.6,Division 2
 Belmont Abbey (Conference Carolinas),0.305,6.33,41,18,,0.695,Division 2
 Bemidji St. (NSIC),0.238,12.03,2,46,,0.042,Division 2
 Benedict (SIAC),0.328,10.61,14,20,,0.412,Division 2
@@ -322,25 +322,25 @@ Bentley (NE10),0.3,6.32,23,22,,0.511,Division 2
 Biola (PacWest),0.267,5.83,19,27,,0.413,Division 2
 Bloomfield (CACC),0.271,8.11,17,31,,0.354,Division 2
 Bloomsburg (PSAC),0.304,4.96,22,17,,0.564,Division 2
-Bluefield St. (DII Independent),0.299,6.27,25,25,1,0.500,Division 2
+Bluefield St. (DII Independent),0.299,6.27,25,25,1,0.5,Division 2
 Bridgeport (CACC),0.232,7.98,9,38,,0.191,Division 2
 Cal Poly Pomona (CCAA),0.277,4.61,29,23,,0.558,Division 2
-Cal St. Dom. Hills (CCAA),0.293,5.85,23,27,,0.460,Division 2
+Cal St. Dom. Hills (CCAA),0.293,5.85,23,27,,0.46,Division 2
 Cal St. East Bay (CCAA),0.298,4.78,27,24,,0.529,Division 2
 Cal St. Monterey Bay (CCAA),0.314,5.35,39,18,,0.684,Division 2
 Cal St. San Marcos (CCAA),0.27,6.09,20,25,,0.444,Division 2
 Cal State LA (CCAA),0.276,6.34,19,29,,0.396,Division 2
 Caldwell (CACC),0.281,7.47,17,24,,0.415,Division 2
-California (PA) (PSAC),0.295,4.85,29,21,,0.580,Division 2
-Cameron (Lone Star),0.275,10.99,13,37,,0.260,Division 2
+California (PA) (PSAC),0.295,4.85,29,21,,0.58,Division 2
+Cameron (Lone Star),0.275,10.99,13,37,,0.26,Division 2
 Carson-Newman (SAC),0.276,5.59,25,23,,0.521,Division 2
 Catawba (SAC),0.285,5.95,27,24,,0.529,Division 2
-Cedarville (G-MAC),0.244,8.01,12,38,,0.240,Division 2
+Cedarville (G-MAC),0.244,8.01,12,38,,0.24,Division 2
 Central Mo. (Mid-America Intercollegiate),0.32,4.33,43,15,,0.741,Division 2
 Central Okla. (Mid-America Intercollegiate),0.309,5.12,32,19,,0.627,Division 2
 Central Wash. (Great Northwest),0.272,5.76,22,29,,0.431,Division 2
 Charleston (WV) (MEC),0.326,4.54,43,12,,0.782,Division 2
-Chestnut Hill (CACC),0.266,6.36,18,27,,0.400,Division 2
+Chestnut Hill (CACC),0.266,6.36,18,27,,0.4,Division 2
 Chico St. (CCAA),0.279,4.61,19,25,,0.432,Division 2
 Chowan (Conference Carolinas),0.261,9.81,6,33,,0.154,Division 2
 Christian Brothers (Gulf South),0.275,7.53,19,30,,0.388,Division 2
@@ -348,11 +348,11 @@ Claflin (Peach Belt),0.213,13.81,1,41,,0.024,Division 2
 Clarion (PSAC),0.254,7.08,12,37,,0.245,Division 2
 Clark Atlanta (SIAC),0.258,8.39,14,29,,0.326,Division 2
 Coker (SAC),0.269,5.86,19,30,,0.388,Division 2
-Colo. Christian (RMAC),0.313,11.5,18,32,1,0.360,Division 2
+Colo. Christian (RMAC),0.313,11.5,18,32,1,0.36,Division 2
 Colo. Sch. of Mines (RMAC),0.321,6.76,22,25,,0.468,Division 2
 Colorado Mesa (RMAC),0.37,4.98,48,11,,0.814,Division 2
 Columbus St. (Peach Belt),0.305,4.31,36,17,,0.679,Division 2
-Concord (MEC),0.308,6.91,29,21,,0.580,Division 2
+Concord (MEC),0.308,6.91,29,21,,0.58,Division 2
 Concordia-St. Paul (NSIC),0.291,7.11,17,28,,0.378,Division 2
 CSU Pueblo (RMAC),0.341,7.27,22,31,,0.415,Division 2
 CSUSB (CCAA),0.321,5.27,46,19,,0.708,Division 2
@@ -363,12 +363,12 @@ Delta St. (Gulf South),0.267,5.23,27,26,,0.509,Division 2
 Dominican (NY) (CACC),0.282,7.96,15,33,,0.313,Division 2
 Drury (GLVC),0.281,5.77,30,24,,0.556,Division 2
 East Central (GAC),0.237,10.24,9,40,,0.184,Division 2
-East Stroudsburg (PSAC),0.288,3.24,36,14,,0.720,Division 2
+East Stroudsburg (PSAC),0.288,3.24,36,14,,0.72,Division 2
 Eastern N.M. (Lone Star),0.314,9.12,23,28,,0.451,Division 2
 Eckerd (Sunshine State),0.305,5.69,22,27,,0.449,Division 2
 Edward Waters (SIAC),0.294,5.36,26,22,,0.542,Division 2
 Embry-Riddle (FL) (Sunshine State),0.275,5.15,25,23,,0.521,Division 2
-Emmanuel (GA) (Conference Carolinas),0.264,4.78,25,24,,0.510,Division 2
+Emmanuel (GA) (Conference Carolinas),0.264,4.78,25,24,,0.51,Division 2
 Emory & Henry (SAC),0.285,8.6,12,35,,0.255,Division 2
 Emporia St. (Mid-America Intercollegiate),0.251,7.47,18,31,,0.367,Division 2
 Erskine (Conference Carolinas),0.317,6.19,29,20,,0.592,Division 2
@@ -378,7 +378,7 @@ Findlay (G-MAC),0.265,5.35,32,22,,0.593,Division 2
 Fla. Southern (Sunshine State),0.312,5.53,32,20,,0.615,Division 2
 Flagler (Peach Belt),0.275,4.89,18,30,,0.375,Division 2
 Florida Tech (Sunshine State),0.276,6.2,23,26,,0.469,Division 2
-Fort Hays St. (Mid-America Intercollegiate),0.308,7.91,20,30,,0.400,Division 2
+Fort Hays St. (Mid-America Intercollegiate),0.308,7.91,20,30,,0.4,Division 2
 Francis Marion (Conference Carolinas),0.286,5.67,29,25,,0.537,Division 2
 Franklin Pierce (NE10),0.288,4.88,34,19,,0.642,Division 2
 Fresno Pacific (PacWest),0.279,4.96,24,23,,0.511,Division 2
@@ -392,9 +392,9 @@ Grand Valley St. (GLIAC),0.31,4.99,32,21,,0.604,Division 2
 Harding (GAC),0.299,4.27,33,19,,0.635,Division 2
 Hawaii Hilo (PacWest),0.281,5.08,25,19,,0.568,Division 2
 Hawaii Pacific (PacWest),0.292,7.29,20,27,,0.426,Division 2
-Henderson St. (GAC),0.296,5.28,33,22,,0.600,Division 2
-Hillsdale (G-MAC),0.291,6.01,26,26,,0.500,Division 2
-Holy Names (PacWest),0.277,5.44,26,25,,0.510,Division 2
+Henderson St. (GAC),0.296,5.28,33,22,,0.6,Division 2
+Hillsdale (G-MAC),0.291,6.01,26,26,,0.5,Division 2
+Holy Names (PacWest),0.277,5.44,26,25,,0.51,Division 2
 Ill. Springfield (GLVC),0.313,4.78,36,15,,0.706,Division 2
 Indiana (PA) (PSAC),0.281,5.51,25,29,,0.463,Division 2
 Jefferson (CACC),0.289,5.9,26,22,,0.542,Division 2
@@ -407,7 +407,7 @@ Lander (Peach Belt),0.28,5.9,25,27,,0.481,Division 2
 Lane (SIAC),0.216,9.07,13,34,,0.277,Division 2
 Le Moyne (NE10),0.273,4.86,34,22,,0.607,Division 2
 Lee (Gulf South),0.299,6.25,28,25,,0.528,Division 2
-LeMoyne-Owen (SIAC),0.217,13.92,0,34,,0.000,Division 2
+LeMoyne-Owen (SIAC),0.217,13.92,0,34,,0,Division 2
 Lenoir-Rhyne (SAC),0.318,3.82,38,16,,0.704,Division 2
 Lewis (GLVC),0.316,5.71,30,23,,0.566,Division 2
 Limestone (SAC),0.281,6.93,19,28,,0.404,Division 2
@@ -415,11 +415,11 @@ Lincoln (PA) (ECC),0.24,7.63,12,35,1,0.255,Division 2
 Lincoln Memorial (SAC),0.286,4.35,31,18,,0.633,Division 2
 Lock Haven (PSAC),0.274,5.87,20,21,,0.488,Division 2
 Lubbock Christian (Lone Star),0.337,7.09,35,23,,0.603,Division 2
-Lynn (Sunshine State),0.276,5.97,17,29,1,0.370,Division 2
-Malone (G-MAC),0.289,5.87,24,26,,0.480,Division 2
+Lynn (Sunshine State),0.276,5.97,17,29,1,0.37,Division 2
+Malone (G-MAC),0.289,5.87,24,26,,0.48,Division 2
 Mansfield (PSAC),0.276,6.34,13,32,,0.289,Division 2
 Mars Hill (SAC),0.267,8.79,12,37,,0.245,Division 2
-Mary (NSIC),0.31,7.42,23,27,,0.460,Division 2
+Mary (NSIC),0.31,7.42,23,27,,0.46,Division 2
 Maryville (MO) (GLVC),0.287,5.25,36,20,,0.643,Division 2
 McKendree (GLVC),0.279,9.6,18,30,,0.375,Division 2
 Mercy (ECC),0.282,7.45,16,33,,0.327,Division 2
@@ -431,22 +431,22 @@ Minn.-Crookston (NSIC),0.316,4.64,38,20,,0.655,Division 2
 Minnesota St. (NSIC),0.298,4.27,43,18,,0.705,Division 2
 Minot St. (NSIC),0.321,5.94,29,19,,0.604,Division 2
 Mississippi Col. (Gulf South),0.256,7.1,16,33,,0.327,Division 2
-Missouri S&T (GLVC),0.299,7.43,24,24,,0.500,Division 2
+Missouri S&T (GLVC),0.299,7.43,24,24,,0.5,Division 2
 Missouri Western (Mid-America Intercollegiate),0.29,6.86,15,32,,0.319,Division 2
 Mo. Southern St. (Mid-America Intercollegiate),0.322,5.77,45,17,,0.726,Division 2
-Mo.-St. Louis (GLVC),0.299,8.14,21,29,,0.420,Division 2
+Mo.-St. Louis (GLVC),0.299,8.14,21,29,,0.42,Division 2
 Molloy (ECC),0.317,4.74,35,17,,0.673,Division 2
 Mont. St. Billings (Great Northwest),0.297,7.03,21,27,,0.438,Division 2
 Montevallo (Gulf South),0.32,5.17,39,16,,0.709,Division 2
 Morehouse (SIAC),0.278,8.94,13,24,1,0.351,Division 2
 Mount Olive (Conference Carolinas),0.319,4.47,38,17,,0.691,Division 2
-MSU Denver (RMAC),0.357,7.1,42,14,,0.750,Division 2
-N.M. Highlands (RMAC),0.264,13.61,3,47,,0.060,Division 2
+MSU Denver (RMAC),0.357,7.1,42,14,,0.75,Division 2
+N.M. Highlands (RMAC),0.264,13.61,3,47,,0.06,Division 2
 New Haven (NE10),0.304,4.36,28,15,,0.651,Division 2
 Newberry (SAC),0.327,5.34,43,15,,0.741,Division 2
 Newman (Mid-America Intercollegiate),0.314,7.81,23,30,,0.434,Division 2
 North Georgia (Peach Belt),0.271,4.75,29,24,,0.547,Division 2
-North Greenville (Conference Carolinas),0.324,4.23,50,11,,0.820,Division 2
+North Greenville (Conference Carolinas),0.324,4.23,50,11,,0.82,Division 2
 Northeastern St. (Mid-America Intercollegiate),0.288,6.19,25,28,,0.472,Division 2
 Northern St. (NSIC),0.27,7.72,11,31,,0.262,Division 2
 Northwest Mo. St. (Mid-America Intercollegiate),0.263,6.92,13,34,,0.277,Division 2
@@ -455,9 +455,9 @@ Northwestern Okla. (GAC),0.285,6.16,20,27,,0.426,Division 2
 Northwood (G-MAC),0.321,4.31,42,19,,0.689,Division 2
 Notre Dame (OH) (MEC),0.234,8.86,12,32,,0.273,Division 2
 Nova Southeastern (Sunshine State),0.273,4.6,26,23,,0.531,Division 2
-Ohio Dominican (G-MAC),0.293,6.2,27,27,,0.500,Division 2
+Ohio Dominican (G-MAC),0.293,6.2,27,27,,0.5,Division 2
 Okla. Baptist (GAC),0.317,6.43,32,23,,0.582,Division 2
-Okla. Christian (Lone Star),0.277,9.03,13,37,,0.260,Division 2
+Okla. Christian (Lone Star),0.277,9.03,13,37,,0.26,Division 2
 Ouachita Baptist (GAC),0.296,4.2,37,19,,0.661,Division 2
 Pace (NE10),0.284,4.39,34,21,,0.618,Division 2
 Palm Beach Atl. (Sunshine State),0.28,6.35,20,28,,0.417,Division 2
@@ -467,33 +467,33 @@ Point Loma (PacWest),0.313,4.31,36,16,,0.692,Division 2
 Post (CACC),0.316,5.01,36,17,,0.679,Division 2
 Purdue Northwest (GLIAC),0.281,7.08,16,35,,0.314,Division 2
 Queens (NY) (ECC),0.318,5.82,34,19,,0.642,Division 2
-Quincy (GLVC),0.33,5.38,47,11,,0.810,Division 2
+Quincy (GLVC),0.33,5.38,47,11,,0.81,Division 2
 Regis (CO) (RMAC),0.336,8.39,31,24,,0.564,Division 2
-Rockhurst (GLVC),0.249,7.93,13,37,,0.260,Division 2
+Rockhurst (GLVC),0.249,7.93,13,37,,0.26,Division 2
 Rogers St. (Mid-America Intercollegiate),0.291,7.13,26,22,,0.542,Division 2
 Rollins (Sunshine State),0.315,5.09,42,19,,0.689,Division 2
 Saginaw Valley (GLIAC),0.3,4.75,27,24,,0.529,Division 2
-Saint Leo (Sunshine State),0.3,4.96,30,20,,0.600,Division 2
+Saint Leo (Sunshine State),0.3,4.96,30,20,,0.6,Division 2
 Saint Martin's (Great Northwest),0.244,6.83,15,29,,0.341,Division 2
 Saint Michael's (NE10),0.244,9.68,5,30,,0.143,Division 2
-Saint Rose (NE10),0.26,6.75,16,25,,0.390,Division 2
+Saint Rose (NE10),0.26,6.75,16,25,,0.39,Division 2
 Salem (WV) (DII Independent),0.273,4.37,30,25,,0.545,Division 2
 San Fran. St. (CCAA),0.316,4.73,27,22,,0.551,Division 2
 Savannah St. (SIAC),0.317,4.26,33,14,,0.702,Division 2
 Seton Hill (PSAC),0.325,3.54,48,13,,0.787,Division 2
 Shepherd (PSAC),0.305,6.75,24,20,,0.545,Division 2
 Shippensburg (PSAC),0.285,6.21,27,25,,0.519,Division 2
-Shorter (Gulf South),0.268,5.47,28,22,,0.560,Division 2
-Sioux Falls (NSIC),0.293,9.3,15,35,,0.300,Division 2
-Slippery Rock (PSAC),0.264,4.8,23,27,,0.460,Division 2
-Sonoma St. (CCAA),0.252,5.02,22,22,,0.500,Division 2
+Shorter (Gulf South),0.268,5.47,28,22,,0.56,Division 2
+Sioux Falls (NSIC),0.293,9.3,15,35,,0.3,Division 2
+Slippery Rock (PSAC),0.264,4.8,23,27,,0.46,Division 2
+Sonoma St. (CCAA),0.252,5.02,22,22,,0.5,Division 2
 Southeastern Okla. (GAC),0.298,6.36,27,25,,0.519,Division 2
-Southern Ark. (GAC),0.297,4.79,40,18,,0.690,Division 2
+Southern Ark. (GAC),0.297,4.79,40,18,,0.69,Division 2
 Southern Conn. St. (NE10),0.29,4.68,29,16,,0.644,Division 2
 Southern N.H. (NE10),0.321,3.37,44,13,,0.772,Division 2
-Southern Nazarene (GAC),0.306,9.97,15,35,,0.300,Division 2
+Southern Nazarene (GAC),0.306,9.97,15,35,,0.3,Division 2
 Southern Wesleyan (Conference Carolinas),0.259,8.66,14,35,,0.286,Division 2
-Southwest Baptist (GLVC),0.257,11.37,10,40,,0.200,Division 2
+Southwest Baptist (GLVC),0.257,11.37,10,40,,0.2,Division 2
 Southwest Minn. St. (NSIC),0.31,5.98,27,17,,0.614,Division 2
 Southwestern Okla. (GAC),0.308,7.3,22,27,,0.449,Division 2
 Spring Hill (SIAC),0.305,6.11,33,23,,0.589,Division 2
@@ -501,20 +501,20 @@ St. Anselm (NE10),0.245,8.51,11,35,,0.239,Division 2
 St. Cloud St. (NSIC),0.325,5.24,33,20,,0.623,Division 2
 St. Edward's (Lone Star),0.311,4.97,40,17,,0.702,Division 2
 St. Mary's (TX) (Lone Star),0.295,6.9,25,27,,0.481,Division 2
-St. Thomas Aquinas (ECC),0.283,5.92,23,27,,0.460,Division 2
+St. Thomas Aquinas (ECC),0.283,5.92,23,27,,0.46,Division 2
 Stanislaus St. (CCAA),0.255,4.13,27,25,,0.519,Division 2
 Staten Island (ECC),0.277,6.05,17,26,,0.395,Division 2
 Tampa (Sunshine State),0.345,3.61,43,11,,0.796,Division 2
-Tex. A&M Int'l (Lone Star),0.284,8.41,19,31,,0.380,Division 2
-Tex. A&M-Kingsville (Lone Star),0.299,6.88,26,26,,0.500,Division 2
-Tex. Permian Basin (Lone Star),0.327,7.53,23,27,,0.460,Division 2
+Tex. A&M Int'l (Lone Star),0.284,8.41,19,31,,0.38,Division 2
+Tex. A&M-Kingsville (Lone Star),0.299,6.88,26,26,,0.5,Division 2
+Tex. Permian Basin (Lone Star),0.327,7.53,23,27,,0.46,Division 2
 Tiffin (G-MAC),0.305,7.91,16,33,,0.327,Division 2
 Trevecca Nazarene (G-MAC),0.282,4.36,31,21,,0.596,Division 2
-Truman St. (GLVC),0.278,7.57,19,31,,0.380,Division 2
-Tusculum (SAC),0.291,5.69,25,24,,0.510,Division 2
+Truman St. (GLVC),0.278,7.57,19,31,,0.38,Division 2
+Tusculum (SAC),0.291,5.69,25,24,,0.51,Division 2
 Tuskegee (SIAC),0.274,10.08,13,36,,0.265,Division 2
-UC-Colo. Springs (RMAC),0.336,9.77,20,30,,0.400,Division 2
-UIndy (GLVC),0.32,5.43,39,21,,0.650,Division 2
+UC-Colo. Springs (RMAC),0.336,9.77,20,30,,0.4,Division 2
+UIndy (GLVC),0.32,5.43,39,21,,0.65,Division 2
 UNC Pembroke (Conference Carolinas),0.309,4.46,39,17,,0.696,Division 2
 Union (TN) (Gulf South),0.256,8.06,14,31,,0.311,Division 2
 Upper Iowa (NSIC),0.26,7.18,19,27,,0.413,Division 2
@@ -526,7 +526,7 @@ Virginia St. (DII Independent),0.251,5.8,20,28,,0.417,Division 2
 Walsh (G-MAC),0.29,5.85,27,24,,0.529,Division 2
 Washburn (Mid-America Intercollegiate),0.296,6.04,30,22,,0.577,Division 2
 Wayne St. (MI) (GLIAC),0.299,4.08,42,13,,0.764,Division 2
-Wayne St. (NE) (NSIC),0.288,7.09,25,26,,0.490,Division 2
+Wayne St. (NE) (NSIC),0.288,7.09,25,26,,0.49,Division 2
 West Ala. (Gulf South),0.28,5.89,21,26,,0.447,Division 2
 West Chester (PSAC),0.288,4.87,32,20,,0.615,Division 2
 West Florida (Gulf South),0.312,3.58,39,17,,0.696,Division 2
@@ -534,12 +534,12 @@ West Ga. (Gulf South),0.317,5.11,31,18,,0.633,Division 2
 West Liberty (MEC),0.271,6.71,21,30,,0.412,Division 2
 West Tex. A&M (Lone Star),0.313,6.21,30,22,,0.577,Division 2
 West Va. Wesleyan (MEC),0.263,9.23,11,36,,0.234,Division 2
-West Virginia St. (MEC),0.272,4.6,28,22,,0.560,Division 2
+West Virginia St. (MEC),0.272,4.6,28,22,,0.56,Division 2
 Western Ore. (Great Northwest),0.315,4.16,30,15,,0.667,Division 2
-Wheeling (MEC),0.27,6.26,28,22,,0.560,Division 2
+Wheeling (MEC),0.27,6.26,28,22,,0.56,Division 2
 William Jewell (GLVC),0.309,6.99,30,23,,0.566,Division 2
 Wilmington (DE) (CACC),0.299,5.06,27,21,,0.563,Division 2
-Wingate (SAC),0.291,4.55,32,18,,0.640,Division 2
+Wingate (SAC),0.291,4.55,32,18,,0.64,Division 2
 Winona St. (NSIC),0.299,7.18,23,28,,0.451,Division 2
 Wis.-Parkside (GLIAC),0.274,8.74,13,36,,0.265,Division 2
 Young Harris (Peach Belt),0.302,4.55,38,17,,0.691,Division 2
@@ -551,7 +551,7 @@ Alfred St. (AMCC),0.301,4.64,26,16,,0.619,Division 3
 Allegheny (PAC),0.287,4.99,20,16,,0.556,Division 3
 Alma (Michigan Intercol. Ath. Assn.),0.294,5.96,22,21,1,0.512,Division 3
 Alvernia (MAC Commonwealth),0.306,4.23,28,20,,0.583,Division 3
-Amherst (NESCAC),0.313,5.68,21,14,1,0.600,Division 3
+Amherst (NESCAC),0.313,5.68,21,14,1,0.6,Division 3
 Anderson (IN) (HCAC),0.33,6.2,27,19,,0.587,Division 3
 Anna Maria (Great Northeast),0.298,5.42,22,20,,0.524,Division 3
 Arcadia (MAC Freedom),0.324,5.1,32,14,,0.696,Division 3
@@ -563,20 +563,20 @@ Austin (SCAC),0.224,7.55,6,30,,0.167,Division 3
 Averett (ODAC),0.242,7.55,5,32,1,0.135,Division 3
 Babson (NEWMAC),0.27,4.27,24,18,,0.571,Division 3
 Baldwin Wallace (OAC),0.335,4.7,39,12,,0.765,Division 3
-Bard (Liberty League),0.27,8.12,9,21,,0.300,Division 3
-Baruch (CUNYAC),0.284,7.03,11,14,,0.440,Division 3
+Bard (Liberty League),0.27,8.12,9,21,,0.3,Division 3
+Baruch (CUNYAC),0.284,7.03,11,14,,0.44,Division 3
 Bates (NESCAC),0.296,6.72,16,15,,0.516,Division 3
 Belhaven (CCS),0.274,4.99,21,18,,0.538,Division 3
 Beloit (MWC),0.334,5.31,31,14,,0.689,Division 3
 Benedictine (IL) (NACC),0.313,4.86,30,14,,0.682,Division 3
-Berea (CCS),0.26,10.23,9,32,,0.220,Division 3
+Berea (CCS),0.26,10.23,9,32,,0.22,Division 3
 Berry (SAA),0.321,5.79,22,23,,0.489,Division 3
 Bethany (WV) (PAC),0.312,6.51,17,22,,0.436,Division 3
 Bethany Lutheran (UMAC),0.333,5.13,25,11,,0.694,Division 3
 Bethel (MN) (MIAC),0.311,4.76,32,12,,0.727,Division 3
-Birmingham-So. (SAA),0.299,3.77,39,11,,0.780,Division 3
+Birmingham-So. (SAA),0.299,3.77,39,11,,0.78,Division 3
 Blackburn (SLIAC),0.25,11.08,7,30,,0.189,Division 3
-Bluffton (HCAC),0.29,6.72,22,18,,0.550,Division 3
+Bluffton (HCAC),0.29,6.72,22,18,,0.55,Division 3
 Bob Jones (DIII Independent),0.237,10.71,4,27,,0.129,Division 3
 Bowdoin (NESCAC),0.295,4.86,18,16,,0.529,Division 3
 Brandeis (UAA),0.262,11.21,7,29,,0.194,Division 3
@@ -586,12 +586,12 @@ Bridgewater St. (MASCAC),0.302,4.3,33,13,,0.717,Division 3
 Buena Vista (American Rivers),0.342,4.56,31,11,,0.738,Division 3
 Cabrini (Atlantic East),0.317,5.16,26,16,,0.619,Division 3
 Cairn (CSAC),0.323,6.83,22,21,,0.512,Division 3
-Cal Lutheran (SCIAC),0.298,4.14,29,17,,0.630,Division 3
+Cal Lutheran (SCIAC),0.298,4.14,29,17,,0.63,Division 3
 Caltech (SCIAC),0.275,9.59,7,30,,0.189,Division 3
 Calvin (Michigan Intercol. Ath. Assn.),0.325,7.58,19,20,,0.487,Division 3
 Capital (OAC),0.267,9.87,6,30,,0.167,Division 3
 Carleton (MIAC),0.258,9.33,8,25,,0.242,Division 3
-Carroll (WI) (CCIW),0.26,8.34,16,23,,0.410,Division 3
+Carroll (WI) (CCIW),0.26,8.34,16,23,,0.41,Division 3
 Carthage (CCIW),0.269,6.65,10,28,,0.263,Division 3
 Catholic (Landmark),0.32,5.36,26,11,,0.703,Division 3
 Cazenovia (North Atlantic),0.287,9.31,8,28,,0.222,Division 3
@@ -602,12 +602,12 @@ Central (IA) (American Rivers),0.292,7.35,15,24,,0.385,Division 3
 Centre (SAA),0.278,5.47,28,17,,0.622,Division 3
 Chapman (SCIAC),0.298,4.06,28,16,,0.636,Division 3
 Chatham (PAC),0.291,6.4,19,18,,0.514,Division 3
-Chris. Newport (C2C),0.314,3.43,33,11,,0.750,Division 3
+Chris. Newport (C2C),0.314,3.43,33,11,,0.75,Division 3
 Claremont-M-S (SCIAC),0.325,5.43,28,11,,0.718,Division 3
 Clark (MA) (NEWMAC),0.265,4.26,18,21,,0.462,Division 3
 Clarks Summit (CSAC),0.276,16.02,4,33,,0.108,Division 3
 Clarkson (Liberty League),0.304,6.87,11,23,,0.324,Division 3
-CMSV (Skyline),0.332,5.2,23,16,,0.590,Division 3
+CMSV (Skyline),0.332,5.2,23,16,,0.59,Division 3
 Coast Guard (NEWMAC),0.254,5.07,14,18,,0.438,Division 3
 Cobleskill St. (North Atlantic),0.327,5.79,22,15,,0.595,Division 3
 Coe (American Rivers),0.3,4,23,17,,0.575,Division 3
@@ -621,7 +621,7 @@ Cornell College (MWC),0.283,4.56,21,19,,0.525,Division 3
 Cortland (SUNYAC),0.329,4.58,34,13,,0.723,Division 3
 Covenant (CCS),0.274,6.23,16,18,,0.471,Division 3
 Crown (MN) (UMAC),0.327,7.54,22,20,,0.524,Division 3
-Curry (CCC),0.266,8.42,10,27,,0.270,Division 3
+Curry (CCC),0.266,8.42,10,27,,0.27,Division 3
 CWRU (UAA),0.329,4.54,28,15,,0.651,Division 3
 Dallas (SCAC),0.269,6.97,15,24,,0.385,Division 3
 Dean (Great Northeast),0.266,8.44,9,28,,0.243,Division 3
@@ -637,9 +637,9 @@ Dubuque (American Rivers),0.302,3.26,29,14,,0.674,Division 3
 Earlham (HCAC),0.296,6.78,20,18,,0.526,Division 3
 East Tex. Baptist (ASC),0.339,4.5,42,15,,0.737,Division 3
 East. Mennonite (ODAC),0.286,8.86,10,28,,0.263,Division 3
-Eastern (MAC Commonwealth),0.264,7.67,10,30,,0.250,Division 3
+Eastern (MAC Commonwealth),0.264,7.67,10,30,,0.25,Division 3
 Eastern Conn. St. (Little East),0.322,3.74,35,12,,0.745,Division 3
-Eastern Nazarene (NECC),0.28,4.36,26,14,,0.650,Division 3
+Eastern Nazarene (NECC),0.28,4.36,26,14,,0.65,Division 3
 Edgewood (NACC),0.3,4.93,26,18,,0.591,Division 3
 Elizabethtown (Landmark),0.337,4.69,31,13,,0.705,Division 3
 Elmhurst (CCIW),0.258,6.94,15,22,,0.405,Division 3
@@ -650,17 +650,17 @@ Emory (UAA),0.342,4.36,28,11,,0.718,Division 3
 Endicott (CCC),0.326,3.25,45,9,,0.833,Division 3
 Eureka (SLIAC),0.266,6.87,13,25,,0.342,Division 3
 Farmingdale St. (Skyline),0.325,5.59,17,18,,0.486,Division 3
-FDU-Florham (MAC Freedom),0.256,8.61,8,32,,0.200,Division 3
+FDU-Florham (MAC Freedom),0.256,8.61,8,32,,0.2,Division 3
 Ferrum (ODAC),0.298,7.08,15,23,,0.395,Division 3
 Fitchburg St. (MASCAC),0.282,6.9,19,21,,0.475,Division 3
-Fontbonne (SLIAC),0.318,5.9,25,16,,0.610,Division 3
+Fontbonne (SLIAC),0.318,5.9,25,16,,0.61,Division 3
 Framingham St. (MASCAC),0.306,5.02,26,15,,0.634,Division 3
 Franciscan (PAC),0.283,9.69,6,28,,0.176,Division 3
 Franklin & Marshall (Centennial),0.294,5.29,26,17,,0.605,Division 3
 Franklin (HCAC),0.298,5.88,33,13,,0.717,Division 3
 Fredonia (SUNYAC),0.281,9.62,6,28,,0.176,Division 3
 Gallaudet (United East),0.268,12.14,7,31,,0.184,Division 3
-Geneva (PAC),0.293,7.17,16,23,,0.410,Division 3
+Geneva (PAC),0.293,7.17,16,23,,0.41,Division 3
 George Fox (NWC),0.265,5.77,15,21,,0.417,Division 3
 Gettysburg (Centennial),0.31,7.15,19,21,,0.475,Division 3
 Gordon (CCC),0.268,7.09,13,26,,0.333,Division 3
@@ -674,43 +674,43 @@ Gwynedd Mercy (Atlantic East),0.303,6.09,19,18,,0.514,Division 3
 Hamilton (NESCAC),0.316,4.84,18,15,,0.545,Division 3
 Hamline (MIAC),0.287,8.33,10,28,,0.263,Division 3
 Hampden-Sydney (ODAC),0.268,5.98,20,19,,0.513,Division 3
-Hanover (HCAC),0.289,7.51,16,23,,0.410,Division 3
+Hanover (HCAC),0.289,7.51,16,23,,0.41,Division 3
 Hardin-Simmons (ASC),0.294,5.73,22,23,,0.489,Division 3
 Haverford (Centennial),0.298,6.74,20,21,,0.488,Division 3
 Heidelberg (OAC),0.298,5.87,19,21,,0.475,Division 3
 Hendrix (SAA),0.286,4.69,27,15,,0.643,Division 3
 Hilbert (AMCC),0.306,6.02,26,18,,0.591,Division 3
 Hiram (NCAC),0.274,8,15,25,,0.375,Division 3
-Hobart (Liberty League),0.26,8.55,9,21,,0.300,Division 3
+Hobart (Liberty League),0.26,8.55,9,21,,0.3,Division 3
 Hood (MAC Commonwealth),0.265,4.77,18,20,,0.474,Division 3
-Hope (Michigan Intercol. Ath. Assn.),0.275,5.05,20,20,,0.500,Division 3
+Hope (Michigan Intercol. Ath. Assn.),0.275,5.05,20,20,,0.5,Division 3
 Houghton (Empire 8),0.266,5.43,19,22,,0.463,Division 3
-Howard Payne (ASC),0.308,6.88,20,20,,0.500,Division 3
+Howard Payne (ASC),0.308,6.88,20,20,,0.5,Division 3
 Huntingdon (CCS),0.327,6.33,25,14,,0.641,Division 3
 Husson (North Atlantic),0.268,4.65,25,19,,0.568,Division 3
 IIT (NACC),0.327,6.74,22,21,,0.512,Division 3
 Ill. Wesleyan (CCIW),0.32,6.1,22,23,,0.489,Division 3
 Illinois Col. (MWC),0.268,7.31,15,25,,0.375,Division 3
-Immaculata (Atlantic East),0.311,3.37,29,13,,0.690,Division 3
-Ithaca (Liberty League),0.338,4.69,31,16,,0.660,Division 3
+Immaculata (Atlantic East),0.311,3.37,29,13,,0.69,Division 3
+Ithaca (Liberty League),0.338,4.69,31,16,,0.66,Division 3
 John Carroll (OAC),0.302,4.89,28,17,,0.622,Division 3
 John Jay (CUNYAC),0.228,13.04,3,38,,0.073,Division 3
 Johns Hopkins (Centennial),0.335,3.29,48,8,,0.857,Division 3
-Juniata (Landmark),0.294,9.88,10,30,,0.250,Division 3
+Juniata (Landmark),0.294,9.88,10,30,,0.25,Division 3
 JWU (Providence) (Great Northeast),0.316,4.3,30,15,,0.667,Division 3
 Kalamazoo (Michigan Intercol. Ath. Assn.),0.327,4.62,31,11,,0.738,Division 3
 Kean (NJAC),0.303,4.54,27,17,1,0.614,Division 3
 Keene St. (Little East),0.248,6.74,13,25,,0.342,Division 3
-Kenyon (NCAC),0.327,6.18,21,14,,0.600,Division 3
-Keuka (Empire 8),0.256,5.82,9,22,,0.290,Division 3
+Kenyon (NCAC),0.327,6.18,21,14,,0.6,Division 3
+Keuka (Empire 8),0.256,5.82,9,22,,0.29,Division 3
 Keystone (CSAC),0.355,5.86,30,14,,0.682,Division 3
 King's (PA) (MAC Freedom),0.298,6.14,16,21,,0.432,Division 3
 Knox (MWC),0.232,10.29,7,32,,0.179,Division 3
 La Roche (AMCC),0.28,7.54,13,22,,0.371,Division 3
-La Verne (SCIAC),0.306,5.1,32,18,,0.640,Division 3
+La Verne (SCIAC),0.306,5.1,32,18,,0.64,Division 3
 LaGrange (CCS),0.318,4.39,27,15,,0.643,Division 3
 Lakeland (NACC),0.238,7.25,7,29,,0.194,Division 3
-Lancaster Bible (United East),0.294,8.1,16,25,,0.390,Division 3
+Lancaster Bible (United East),0.294,8.1,16,25,,0.39,Division 3
 Lasell (Great Northeast),0.304,5.44,22,16,,0.579,Division 3
 Lawrence (MWC),0.3,6.87,15,22,,0.405,Division 3
 Lebanon Valley (MAC Commonwealth),0.303,4.8,31,17,1,0.646,Division 3
@@ -719,16 +719,16 @@ Lesley (NECC),0.279,6.71,13,25,,0.342,Division 3
 LeTourneau (ASC),0.283,7.24,20,23,,0.465,Division 3
 Lewis & Clark (NWC),0.279,5.56,31,14,,0.689,Division 3
 Linfield (NWC),0.285,6.63,13,24,,0.351,Division 3
-Loras (American Rivers),0.31,6.52,29,17,,0.630,Division 3
+Loras (American Rivers),0.31,6.52,29,17,,0.63,Division 3
 Luther (American Rivers),0.279,4.88,25,18,,0.581,Division 3
 Lycoming (MAC Freedom),0.253,7.76,12,23,,0.343,Division 3
 Lynchburg (ODAC),0.292,3.25,48,8,,0.857,Division 3
-Macalester (MIAC),0.312,7.39,17,17,,0.500,Division 3
+Macalester (MIAC),0.312,7.39,17,17,,0.5,Division 3
 Manchester (HCAC),0.312,6.03,22,21,,0.512,Division 3
 Manhattanville (Skyline),0.302,6.32,17,22,,0.436,Division 3
 Maranatha Baptist (DIII Independent),0.26,11.98,1,22,,0.043,Division 3
 Marian (WI) (NACC),0.289,6.95,18,21,,0.462,Division 3
-Marietta (OAC),0.33,3.85,37,13,,0.740,Division 3
+Marietta (OAC),0.33,3.85,37,13,,0.74,Division 3
 Martin Luther (UMAC),0.254,12.61,5,25,,0.167,Division 3
 Mary Baldwin (USA South),0.271,9.8,4,34,,0.105,Division 3
 Mary Hardin-Baylor (ASC),0.276,5.82,14,19,,0.424,Division 3
@@ -739,33 +739,33 @@ Marywood (Atlantic East),0.288,6.29,15,23,,0.395,Division 3
 Mass. Maritime (MASCAC),0.281,6.3,23,20,,0.535,Division 3
 McDaniel (Centennial),0.29,7.4,19,17,1,0.528,Division 3
 MCLA (MASCAC),0.302,8.76,10,28,,0.263,Division 3
-McMurry (ASC),0.29,7.31,14,26,,0.350,Division 3
+McMurry (ASC),0.29,7.31,14,26,,0.35,Division 3
 Me.-Farmington (North Atlantic),0.268,9.17,7,31,,0.184,Division 3
 Me.-Presque Isle (North Atlantic),0.218,11.4,2,31,,0.061,Division 3
 Medaille (Empire 8),0.242,9.29,9,29,,0.237,Division 3
-Merchant Marine (Skyline),0.328,4.72,25,16,,0.610,Division 3
+Merchant Marine (Skyline),0.328,4.72,25,16,,0.61,Division 3
 Messiah (MAC Commonwealth),0.283,5.93,19,20,1,0.487,Division 3
 Methodist (USA South),0.291,5.07,27,13,,0.675,Division 3
 Middlebury (NESCAC),0.302,5.27,27,13,,0.675,Division 3
 Millikin (CCIW),0.297,3.64,26,17,,0.605,Division 3
 Millsaps (SAA),0.29,6.56,22,23,,0.489,Division 3
-Minn.-Morris (UMAC),0.283,5.55,19,19,,0.500,Division 3
+Minn.-Morris (UMAC),0.283,5.55,19,19,,0.5,Division 3
 Misericordia (MAC Freedom),0.323,4.47,40,15,,0.727,Division 3
 MIT (NEWMAC),0.301,7.34,16,21,,0.432,Division 3
 Mitchell (NECC),0.325,3.89,33,10,,0.767,Division 3
-Monmouth (IL) (MWC),0.285,6.01,16,23,,0.410,Division 3
+Monmouth (IL) (MWC),0.285,6.01,16,23,,0.41,Division 3
 Montclair St. (NJAC),0.343,5.05,26,11,,0.703,Division 3
 Moravian (Landmark),0.307,8.64,13,26,,0.333,Division 3
 Mount Aloysius (AMCC),0.318,7.35,17,20,,0.459,Division 3
 Mount Union (OAC),0.288,4.42,22,15,1,0.595,Division 3
-MSOE (NACC),0.33,4.56,26,14,,0.650,Division 3
+MSOE (NACC),0.33,4.56,26,14,,0.65,Division 3
 Mt. St. Joseph (HCAC),0.293,5.92,15,23,,0.395,Division 3
 Mt. St. Mary (NY) (Skyline),0.262,6.67,13,27,,0.325,Division 3
 Muhlenberg (Centennial),0.277,6.78,16,22,1,0.421,Division 3
-Muskingum (OAC),0.311,6.83,22,18,,0.550,Division 3
+Muskingum (OAC),0.311,6.83,22,18,,0.55,Division 3
 MUW (SLIAC),0.256,9,6,25,1,0.194,Division 3
 N.C. Wesleyan (USA South),0.323,5.01,35,11,,0.761,Division 3
-Neb. Wesleyan (American Rivers),0.278,6.54,14,26,,0.350,Division 3
+Neb. Wesleyan (American Rivers),0.278,6.54,14,26,,0.35,Division 3
 Neumann (Atlantic East),0.279,8.6,19,23,,0.452,Division 3
 New England Col. (NECC),0.249,7.94,16,22,,0.421,Division 3
 New Jersey City (NJAC),0.299,7.84,13,27,,0.325,Division 3
@@ -786,7 +786,7 @@ Old Westbury (Skyline),0.307,6.89,19,18,,0.514,Division 3
 Olivet (Michigan Intercol. Ath. Assn.),0.248,10.17,4,31,,0.114,Division 3
 Oswego St. (SUNYAC),0.303,6.28,20,21,,0.488,Division 3
 Otterbein (OAC),0.329,5.48,27,13,,0.675,Division 3
-Ozarks (AR) (ASC),0.309,8.75,10,30,,0.250,Division 3
+Ozarks (AR) (ASC),0.309,8.75,10,30,,0.25,Division 3
 Pacific (OR) (NWC),0.319,4.65,25,15,,0.625,Division 3
 Pacific Lutheran (NWC),0.299,7.31,17,19,,0.472,Division 3
 Penn College (United East),0.305,7.21,23,20,,0.535,Division 3
@@ -795,14 +795,14 @@ Penn St.-Abington (United East),0.342,9.21,19,21,,0.475,Division 3
 Penn St.-Altoona (AMCC),0.302,7.54,20,27,,0.426,Division 3
 Penn St.-Behrend (AMCC),0.304,5.27,22,19,,0.537,Division 3
 Penn St.-Berks (United East),0.26,9.3,11,24,,0.314,Division 3
-Pfeiffer (USA South),0.294,6.05,19,19,,0.500,Division 3
+Pfeiffer (USA South),0.294,6.05,19,19,,0.5,Division 3
 Piedmont (CCS),0.311,4.41,26,17,,0.605,Division 3
 Pitt.-Bradford (AMCC),0.277,8.19,7,26,,0.212,Division 3
 Pitt.-Greensburg (AMCC),0.352,7.37,21,16,,0.568,Division 3
 Plattsburgh St. (SUNYAC),0.249,5.09,15,20,,0.429,Division 3
 Plymouth St. (Little East),0.279,8.59,11,21,,0.344,Division 3
 Pomona-Pitzer (SCIAC),0.288,4.19,21,19,,0.525,Division 3
-Principia (SLIAC),0.224,15.16,3,27,,0.100,Division 3
+Principia (SLIAC),0.224,15.16,3,27,,0.1,Division 3
 Puget Sound (NWC),0.289,5.6,19,16,,0.543,Division 3
 Purchase (Skyline),0.302,6.7,22,21,,0.512,Division 3
 Ramapo (NJAC),0.279,5.47,21,17,,0.553,Division 3
@@ -817,26 +817,26 @@ Rivier (Great Northeast),0.24,8.6,11,25,,0.306,Division 3
 Roanoke (ODAC),0.296,4.59,28,17,,0.622,Division 3
 Rochester (NY) (Liberty League),0.306,4.97,28,14,,0.667,Division 3
 Rockford (NACC),0.291,7.57,16,22,,0.421,Division 3
-Roger Williams (CCC),0.268,7.12,16,25,,0.390,Division 3
+Roger Williams (CCC),0.268,7.12,16,25,,0.39,Division 3
 Rose-Hulman (HCAC),0.287,6.2,23,21,,0.523,Division 3
 Rosemont (CSAC),0.305,9.6,15,20,,0.429,Division 3
 Rowan (NJAC),0.353,5.06,33,15,,0.688,Division 3
 Russell Sage (Empire 8),0.271,7.15,18,25,,0.419,Division 3
-Rutgers-Camden (NJAC),0.275,5.16,22,18,,0.550,Division 3
+Rutgers-Camden (NJAC),0.275,5.16,22,18,,0.55,Division 3
 Rutgers-Newark (NJAC),0.257,5.31,21,16,1,0.568,Division 3
 Saint Elizabeth (CSAC),0.306,7,14,28,,0.333,Division 3
-Saint John's (MN) (MIAC),0.317,4.86,23,16,,0.590,Division 3
+Saint John's (MN) (MIAC),0.317,4.86,23,16,,0.59,Division 3
 Saint Mary's (MN) (MIAC),0.28,4.94,15,20,,0.429,Division 3
-Saint Vincent (PAC),0.302,5.11,22,18,,0.550,Division 3
+Saint Vincent (PAC),0.302,5.11,22,18,,0.55,Division 3
 Salem St. (MASCAC),0.238,6.55,11,26,,0.297,Division 3
 Salisbury (C2C),0.336,4.35,36,8,,0.818,Division 3
 Salve Regina (CCC),0.336,3.62,39,10,1,0.796,Division 3
-Schreiner (SCAC),0.303,6.76,18,22,,0.450,Division 3
+Schreiner (SCAC),0.303,6.76,18,22,,0.45,Division 3
 Scranton (Landmark),0.32,6.22,26,16,,0.619,Division 3
 Sewanee (SAA),0.278,6.05,20,22,1,0.476,Division 3
 Shenandoah (ODAC),0.331,3.88,42,10,,0.808,Division 3
-Simpson (American Rivers),0.247,5.31,16,24,,0.400,Division 3
-Skidmore (Liberty League),0.305,5.37,24,16,,0.600,Division 3
+Simpson (American Rivers),0.247,5.31,16,24,,0.4,Division 3
+Skidmore (Liberty League),0.305,5.37,24,16,,0.6,Division 3
 Southern Me. (Little East),0.282,5.24,18,21,,0.462,Division 3
 Southern Va. (USA South),0.297,8.22,13,24,,0.351,Division 3
 Southwestern (TX) (SCAC),0.281,5.62,25,15,,0.625,Division 3
@@ -845,10 +845,10 @@ Springfield (NEWMAC),0.267,5.59,14,20,1,0.412,Division 3
 St. John Fisher (Empire 8),0.309,4.88,32,14,,0.696,Division 3
 St. Joseph's (Brkln) (Skyline),0.299,8.46,11,25,,0.306,Division 3
 St. Joseph's (L.I.) (Skyline),0.334,4.55,30,11,,0.732,Division 3
-St. Joseph's (ME) (Great Northeast),0.276,6.15,18,22,,0.450,Division 3
+St. Joseph's (ME) (Great Northeast),0.276,6.15,18,22,,0.45,Division 3
 St. Lawrence (Liberty League),0.28,7.1,13,20,,0.394,Division 3
 St. Mary's (MD) (United East),0.302,7.63,11,17,,0.393,Division 3
-St. Norbert (NACC),0.292,7.16,12,28,,0.300,Division 3
+St. Norbert (NACC),0.292,7.16,12,28,,0.3,Division 3
 St. Olaf (MIAC),0.306,7.36,16,18,,0.471,Division 3
 St. Scholastica (MIAC),0.27,6.57,9,24,,0.273,Division 3
 St. Thomas (TX) (SCAC),0.287,4.89,20,18,,0.526,Division 3
@@ -865,33 +865,33 @@ SUNY Oneonta (SUNYAC),0.287,5.14,25,15,,0.625,Division 3
 SUNY Poly (North Atlantic),0.284,6.81,12,23,,0.343,Division 3
 Susquehanna (Landmark),0.28,5.63,28,20,,0.583,Division 3
 Swarthmore (Centennial),0.288,6.78,20,18,1,0.526,Division 3
-TCNJ (NJAC),0.277,6.78,24,24,,0.500,Division 3
+TCNJ (NJAC),0.277,6.78,24,24,,0.5,Division 3
 Texas Lutheran (SCAC),0.304,4.97,29,15,,0.659,Division 3
 Texas-Dallas (ASC),0.293,5.14,25,19,,0.568,Division 3
 Thiel (PAC),0.276,7.39,11,28,,0.282,Division 3
 Thomas (ME) (North Atlantic),0.3,6.94,19,17,,0.528,Division 3
 Transylvania (HCAC),0.273,5.04,24,19,,0.558,Division 3
 Trine (Michigan Intercol. Ath. Assn.),0.258,6.18,15,24,,0.385,Division 3
-Trinity (CT) (NESCAC),0.294,5.07,21,14,,0.600,Division 3
-Trinity (TX) (SCAC),0.295,3.44,31,16,,0.660,Division 3
+Trinity (CT) (NESCAC),0.294,5.07,21,14,,0.6,Division 3
+Trinity (TX) (SCAC),0.295,3.44,31,16,,0.66,Division 3
 Tufts (NESCAC),0.265,4.05,31,11,,0.738,Division 3
 UChicago (MWC),0.281,5.13,25,18,,0.581,Division 3
 UMass Boston (Little East),0.295,5.34,24,18,,0.571,Division 3
-UMass Dartmouth (Little East),0.3,6.56,19,19,,0.500,Division 3
+UMass Dartmouth (Little East),0.3,6.56,19,19,,0.5,Division 3
 Union (NY) (Liberty League),0.303,6.83,15,23,,0.395,Division 3
-Ursinus (Centennial),0.257,6.77,16,24,,0.400,Division 3
+Ursinus (Centennial),0.257,6.77,16,24,,0.4,Division 3
 Utica (Empire 8),0.318,5.61,24,15,,0.615,Division 3
 Va. Wesleyan (ODAC),0.27,7.55,5,30,1,0.143,Division 3
 Valley Forge (CSAC),0.286,7.8,14,22,,0.389,Division 3
 Vassar (Liberty League),0.337,5.78,20,18,,0.526,Division 3
-VTSU Castleton (Little East),0.263,6.96,18,22,,0.450,Division 3
+VTSU Castleton (Little East),0.263,6.96,18,22,,0.45,Division 3
 VTSU Lyndon (North Atlantic),0.276,8.51,12,23,,0.343,Division 3
 Wabash (NCAC),0.319,7.39,24,18,,0.571,Division 3
-Wartburg (American Rivers),0.301,6.04,14,21,,0.400,Division 3
+Wartburg (American Rivers),0.301,6.04,14,21,,0.4,Division 3
 Wash. & Jeff. (PAC),0.302,4.9,32,14,,0.696,Division 3
 Wash. & Lee (ODAC),0.298,5.36,18,17,,0.514,Division 3
 Washington Col. (Centennial),0.251,8.86,12,27,,0.308,Division 3
-WashU (UAA),0.304,4.28,26,14,,0.650,Division 3
+WashU (UAA),0.304,4.28,26,14,,0.65,Division 3
 Waynesburg (PAC),0.271,7.1,14,24,,0.368,Division 3
 Webster (SLIAC),0.327,4.25,33,16,,0.673,Division 3
 Wells (United East),0.268,8.64,11,27,,0.289,Division 3
@@ -899,9 +899,9 @@ Wentworth (CCC),0.25,9.38,4,27,,0.129,Division 3
 Wesleyan (CT) (NESCAC),0.3,6.94,17,19,,0.472,Division 3
 WestConn (Little East),0.266,8.98,9,29,,0.237,Division 3
 Western New Eng. (CCC),0.288,4.22,25,15,2,0.625,Division 3
-Westfield St. (MASCAC),0.285,6.16,19,19,,0.500,Division 3
+Westfield St. (MASCAC),0.285,6.16,19,19,,0.5,Division 3
 Westminster (MO) (SLIAC),0.335,6.46,25,19,,0.568,Division 3
-Westminster (PA) (PAC),0.293,4.99,20,20,,0.500,Division 3
+Westminster (PA) (PAC),0.293,4.99,20,20,,0.5,Division 3
 Wheaton (IL) (CCIW),0.3,6.12,16,22,,0.421,Division 3
 Wheaton (MA) (NEWMAC),0.302,3.48,42,9,,0.824,Division 3
 Whitman (NWC),0.271,5.67,22,19,,0.537,Division 3
@@ -912,7 +912,7 @@ Wilkes (MAC Freedom),0.276,5.78,17,24,,0.415,Division 3
 Willamette (NWC),0.293,5.28,25,14,,0.641,Division 3
 William Peace (USA South),0.325,5.45,25,21,,0.543,Division 3
 Williams (NESCAC),0.296,6.83,13,17,,0.433,Division 3
-Wilmington (OH) (OAC),0.291,7.01,16,23,,0.410,Division 3
+Wilmington (OH) (OAC),0.291,7.01,16,23,,0.41,Division 3
 Wilson (CSAC),0.39,6.05,34,10,,0.773,Division 3
 Wis. Lutheran (NACC),0.239,8.65,5,31,,0.139,Division 3
 Wis.-Eau Claire (WIAC),0.275,7.52,12,27,,0.308,Division 3
@@ -928,4 +928,4 @@ Wm. Paterson (NJAC),0.329,6.89,25,15,,0.625,Division 3
 Wooster (NCAC),0.294,6.64,17,23,1,0.425,Division 3
 Worcester St. (MASCAC),0.257,4.78,17,22,,0.436,Division 3
 WPI (NEWMAC),0.273,6.79,16,22,,0.421,Division 3
-York (PA) (MAC Commonwealth),0.279,5.69,20,20,,0.500,Division 3
+York (PA) (MAC Commonwealth),0.279,5.69,20,20,,0.5,Division 3
