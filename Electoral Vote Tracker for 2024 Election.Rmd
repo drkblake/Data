@@ -1,0 +1,148 @@
+---
+output: html_document
+---
+
+```{css, echo=FALSE}
+h3 {text-align: center;}
+```
+
+### Electoral vote tracker demo
+
+```{r, include=FALSE, warning=FALSE, message=FALSE}
+# Required packages
+
+if (!require("tidyverse"))
+  install.packages("tidyverse")
+if (!require("plotly"))
+  install.packages("plotly")
+if (!require("DataEditR"))
+  install.packages("DataEditR")
+
+library(tidyverse)
+library(plotly)
+library(DataEditR)
+
+# Loading the data from a local .csv file
+
+AllData <- read.csv("ElectoralVotesByState2024.csv")
+AllData <- AllData %>%
+  arrange(State)
+
+# Editing the data, and saving the edits
+
+AllData <- data_edit(AllData)
+write.csv(AllData,"ElectoralVotesByState2024.csv", row.names = FALSE)
+
+# Formatting and transforming the data for plotting
+
+MyData <- AllData %>%
+  select(State, Votes.to.allocate,
+         Unallocated, Harris, Trump) %>% 
+  arrange(State)
+
+MyData <- MyData %>%
+  pivot_longer(cols=c(-State),names_to="Candidate")%>%
+  pivot_wider(names_from=c(State)) %>%
+  filter(Candidate == "Harris" |
+           Candidate == "Trump" |
+           Candidate == "Unallocated") %>%
+  arrange(Candidate)
+
+MyData <- MyData %>% 
+  mutate(total = rowSums(.[2:52]))
+
+# Formatting a horizontal line for the plot
+
+hline <- function(y = 0, color = "darkgray") {
+  list(
+    type = "line",
+    x0 = 0,
+    x1 = 1,
+    xref = "paper",
+    y0 = y,
+    y1 = y,
+    line = list(color = color)
+  )
+}
+
+# Producing the plot
+
+fig <- plot_ly(
+  MyData,
+  x = ~ Candidate,
+  y = ~ AK,
+  legend = FALSE,
+  marker = list(color = c("384B70", "B8001F", "gray")),
+  type = 'bar',
+  name = 'AK'
+) %>% 
+  add_annotations(
+    visible = "legendonly",
+    x = ~ Candidate,
+    y = ~ (total + 20),
+    text = ~ total,
+    showarrow = FALSE,
+    textfont = list(size = 50)
+  ) 
+fig <- fig %>% add_trace(y = ~ DE, name = 'DE')
+fig <- fig %>% add_trace(y = ~ DC, name = 'DC')
+fig <- fig %>% add_trace(y = ~ MT, name = 'MT')
+fig <- fig %>% add_trace(y = ~ ND, name = 'ND')
+fig <- fig %>% add_trace(y = ~ SD, name = 'SD')
+fig <- fig %>% add_trace(y = ~ VT, name = 'VT')
+fig <- fig %>% add_trace(y = ~ WY, name = 'WY')
+fig <- fig %>% add_trace(y = ~ HI, name = 'HI')
+fig <- fig %>% add_trace(y = ~ ID, name = 'ID')
+fig <- fig %>% add_trace(y = ~ ME, name = 'ME')
+fig <- fig %>% add_trace(y = ~ NH, name = 'NH')
+fig <- fig %>% add_trace(y = ~ RI, name = 'RI')
+fig <- fig %>% add_trace(y = ~ NE, name = 'NE')
+fig <- fig %>% add_trace(y = ~ NM, name = 'NM')
+fig <- fig %>% add_trace(y = ~ WV, name = 'WV')
+fig <- fig %>% add_trace(y = ~ AR, name = 'AR')
+fig <- fig %>% add_trace(y = ~ IA, name = 'IA')
+fig <- fig %>% add_trace(y = ~ KS, name = 'KS')
+fig <- fig %>% add_trace(y = ~ MS, name = 'MS')
+fig <- fig %>% add_trace(y = ~ NV, name = 'NV')
+fig <- fig %>% add_trace(y = ~ UT, name = 'UT')
+fig <- fig %>% add_trace(y = ~ CT, name = 'CT')
+fig <- fig %>% add_trace(y = ~ OK, name = 'OK')
+fig <- fig %>% add_trace(y = ~ OR, name = 'OR')
+fig <- fig %>% add_trace(y = ~ KY, name = 'KY')
+fig <- fig %>% add_trace(y = ~ LA, name = 'LA')
+fig <- fig %>% add_trace(y = ~ AL, name = 'AL')
+fig <- fig %>% add_trace(y = ~ CO, name = 'CO')
+fig <- fig %>% add_trace(y = ~ SC, name = 'SC')
+fig <- fig %>% add_trace(y = ~ MD, name = 'MD')
+fig <- fig %>% add_trace(y = ~ MN, name = 'MN')
+fig <- fig %>% add_trace(y = ~ MO, name = 'MO')
+fig <- fig %>% add_trace(y = ~ WI, name = 'WI')
+fig <- fig %>% add_trace(y = ~ AZ, name = 'AZ')
+fig <- fig %>% add_trace(y = ~ IN, name = 'IN')
+fig <- fig %>% add_trace(y = ~ MA, name = 'MA')
+fig <- fig %>% add_trace(y = ~ TN, name = 'TN')
+fig <- fig %>% add_trace(y = ~ WA, name = 'WA')
+fig <- fig %>% add_trace(y = ~ VA, name = 'VA')
+fig <- fig %>% add_trace(y = ~ NJ, name = 'NJ')
+fig <- fig %>% add_trace(y = ~ NC, name = 'NC')
+fig <- fig %>% add_trace(y = ~ GA, name = 'GA')
+fig <- fig %>% add_trace(y = ~ MI, name = 'MI')
+fig <- fig %>% add_trace(y = ~ OH, name = 'OH')
+fig <- fig %>% add_trace(y = ~ IL, name = 'IL')
+fig <- fig %>% add_trace(y = ~ PA, name = 'PA')
+fig <- fig %>% add_trace(y = ~ FL, name = 'FL')
+fig <- fig %>% add_trace(y = ~ NY, name = 'NY')
+fig <- fig %>% add_trace(y = ~ TX, name = 'TX')
+fig <- fig %>% add_trace(y = ~ CA, name = 'CA')
+fig <- fig %>% layout(yaxis = list(title = 'Electoral votes'),
+                      barmode = 'stack',
+                      showlegend = FALSE,
+                      shapes = list(hline(270)))
+# Showing the plot
+
+fig
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+fig
+```
