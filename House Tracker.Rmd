@@ -24,9 +24,9 @@ library(DataEditR)
 
 # Read data
 
-House <- read.csv("House.csv")
+House <- read_csv("House.csv")
 House <- data_edit(House)
-write.csv(House,"House.csv", row.names = FALSE)
+write_csv(House,"House.csv")
 
 # Totaling members by party
 
@@ -57,4 +57,4 @@ fig
 fig
 ```
 
-R Markdown Code
+[R Markdown Code](https://raw.githubusercontent.com/drkblake/Data/refs/heads/main/House%20Tracker.Rmd){target="_blank"}
