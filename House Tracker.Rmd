@@ -45,21 +45,16 @@ fig <- plot_ly(
   x = ~ Party,
   y = ~ Members,
   marker = list(color = c("384B70", "B8001F", "gray")),
-  type = "bar")%>% 
-  add_annotations(
-    visible = "legendonly",
-    x = ~ Party,
-    y = ~ (Members + 20),
-    text = ~ Members,
-    showarrow = FALSE,
-    textfont = list(size = 50))
-
-# Showing the plot
-
+  type = "bar",
+  text = Members,
+  textposition = "auto")
 fig
+
 ```
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 
 fig
 ```
+
+R Markdown Code
