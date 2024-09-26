@@ -24,9 +24,9 @@ library(DataEditR)
 
 # Read data
 
-Senate <- read.csv("Senate.csv")
+Senate <- read_csv("Senate.csv")
 Senate <- data_edit(Senate)
-write.csv(Senate,"Senate.csv", row.names = FALSE)
+write_csv(Senate,"Senate.csv")
 
 # Totaling members by party
 
@@ -59,3 +59,5 @@ fig
 
 fig
 ```
+
+[R Markdown code](https://raw.githubusercontent.com/drkblake/Data/refs/heads/main/Senate%20tracker.Rmd){target="_blank"}
