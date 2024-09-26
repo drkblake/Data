@@ -1,0 +1,65 @@
+---
+output: html_document
+---
+
+```{css, echo=FALSE}
+h3 {text-align: center;}
+```
+
+### **House members, by party**
+
+```{r, include=FALSE, warning=FALSE, message=FALSE}
+# Required packages
+
+if (!require("tidyverse"))
+  install.packages("tidyverse")
+if (!require("plotly"))
+  install.packages("plotly")
+if (!require("DataEditR"))
+  install.packages("DataEditR")
+
+library(tidyverse)
+library(plotly)
+library(DataEditR)
+
+# Read data
+
+House <- read.csv("House.csv")
+House <- data_edit(House)
+write.csv(House,"House.csv", row.names = FALSE)
+
+# Totaling members by party
+
+Dem <- sum(House$Dem)
+Rep <- sum(House$Rep)
+Unallocated <- sum(House$Unallocated)
+
+Party <- c("Dem", "Rep", "Unallocated")
+Members <- c(Dem, Rep, Unallocated)
+ChartData <- data.frame(Party, Members)
+
+# Making the plot
+
+fig <- plot_ly(
+  ChartData,
+  x = ~ Party,
+  y = ~ Members,
+  marker = list(color = c("384B70", "B8001F", "gray")),
+  type = "bar")%>% 
+  add_annotations(
+    visible = "legendonly",
+    x = ~ Party,
+    y = ~ (Members + 20),
+    text = ~ Members,
+    showarrow = FALSE,
+    textfont = list(size = 50))
+
+# Showing the plot
+
+fig
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+fig
+```
