@@ -1,0 +1,89 @@
+---
+output: html_document
+---
+
+```{css, echo=FALSE}
+h3 {text-align: center;}
+```
+
+```{r, include=FALSE, message=FALSE, warning=FALSE}
+# Installing and loading required packages
+
+if (!require("tidyverse"))
+  install.packages("tidyverse")
+if (!require("tidycensus"))
+  install.packages("tidycensus")
+if (!require("sf"))
+  install.packages("sf")
+if (!require("mapview"))
+  install.packages("mapview")
+if (!require("DataEditR"))
+  install.packages("DataEditR")
+if (!require("leaflet"))
+  install.packages("leaflet")
+if (!require("leaflet.extras2"))
+  install.packages("leaflet.extras2")
+if (!require("plotly"))
+  install.packages("plotly")
+
+library(tidyverse)
+library(tidycensus)
+library(sf)
+library(mapview)
+library(DataEditR)
+library(leaflet)
+library(leafpop)
+library(plotly)
+
+# Reading files from local computer project folder
+
+TNSenateMap <- st_read("TNSenateMap.shp")
+TNSenateData <- read_csv("TNSenateRaceData.csv")
+
+# Edit / update election data
+
+TNSenateData <- data_edit(TNSenateData)
+write_csv(TNSenateData,"TNSenateRaceData.csv")
+
+# Merge election and map data
+
+TNSenateWinners <- merge(TNSenateMap,TNSenateData)
+
+# Make the election map
+
+mypalette = colorRampPalette(c("gray","#384B70","#B8001F"))
+
+# Use this palette if an independent wins
+# mypalette = colorRampPalette(c("gray","#384B70","#B8001F","#FFD35A"))
+
+TNSenateElectionMap <-
+  mapview(
+  TNSenateWinners,
+  zcol = "Party",
+  col.regions = mypalette,
+  layer.name = "Party",
+  popup = popupTable(
+    TNSenateWinners,
+    feature.id = FALSE,
+    row.numbers = FALSE,
+    zcol = c(
+      "District",
+      "Party",
+      "Dem",
+      "Rep",
+      "Ind"
+    )
+  )
+)
+
+# Show the map
+
+TNSenateElectionMap
+
+```
+
+### Tennessee State Senate Election
+
+```{r, echo=FALSE}
+TNSenateElectionMap
+```
