@@ -1,4 +1,4 @@
-﻿GEOID,District,Party,Dem,Rep,Ind
+GEOID,District,Party,Dem,Rep,Ind
 47001,1,Rep,Not on ballot,Not on ballot,Not on ballot
 47002,2,Counting,Patti Young,Tom Hatcher,No candidate
 47003,3,Rep,Not on ballot,Not on ballot,Not on ballot
@@ -22,13 +22,13 @@
 47021,21,Dem,Not on ballot,Not on ballot,Not on ballot
 47022,22,Counting,Karen Reynolds,Bill Powers,No candidate
 47023,23,Rep,Not on ballot,Not on ballot,Not on ballot
-47024,24,Counting,No candidate,John Stevens,No candidate
+47024,24,Rep,No candidate,John Stevens,No candidate
 47025,25,Rep,Not on ballot,Not on ballot,Not on ballot
-47026,26,Counting,No candidate,Page Walley,No candidate
+47026,26,Dem,No candidate,Page Walley,No candidate
 47027,27,Rep,Not on ballot,Not on ballot,Not on ballot
 47028,28,Counting,James Dallas,Joey Hensley,No candidate
 47029,29,Dem,Not on ballot,Not on ballot,Not on ballot
 47030,30,Counting,Sara Kyle,No candidate,Mitchell Morrison
 47031,31,Rep,Not on ballot,Not on ballot,Not on ballot
-47032,32,Counting,No candidate,Paul Rose,No candidate
+47032,32,Rep,No candidate,Paul Rose,No candidate
 47033,33,Dem,Not on ballot,Not on ballot,Not on ballot
