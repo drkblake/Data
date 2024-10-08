@@ -6,7 +6,7 @@ output: html_document
 h3 {text-align: center;}
 ```
 
-### **Senate members, by party**
+## **Senate members, by party**
 
 ```{r, include=FALSE, warning=FALSE, message=FALSE}
 # Required packages
@@ -17,16 +17,20 @@ if (!require("plotly"))
   install.packages("plotly")
 if (!require("DataEditR"))
   install.packages("DataEditR")
+if (!require("gtExtras"))
+  install.packages("DataEditR")
 
 library(tidyverse)
 library(plotly)
 library(DataEditR)
+library(gtExtras)
 
-# Read data
+# Read and edit data
 
 Senate <- read_csv("Senate.csv")
 Senate <- data_edit(Senate)
 write_csv(Senate,"Senate.csv")
+write_csv(Senate,"Senate_latest.csv")
 
 # Totaling members by party
 
@@ -60,4 +64,18 @@ fig
 fig
 ```
 
-[R Markdown code](https://raw.githubusercontent.com/drkblake/Data/refs/heads/main/Senate%20tracker.Rmd){target="_blank"}
+```{r, include=FALSE}
+Senate_U <- Senate %>% 
+  filter(Unallocated == 1) %>% 
+  arrange(State) %>%
+  select(State) %>% 
+  gt() %>% 
+  cols_align(align = "center") %>% 
+  gt_theme_538
+```
+
+### **Unreported races**
+
+```{r, echo=FALSE}
+Senate_U
+```

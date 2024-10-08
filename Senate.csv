@@ -1,101 +1,101 @@
-"Name","State","Party","Group","Dem","Rep","Ind","Unallocated"
-"Sinema, Kyrsten","Arizona","Independent",1,0,0,0,1
-"Butler, Laphonza R.","California","Democratic",1,0,0,0,1
-"Murphy, Christopher","Connecticut","Democratic",1,0,0,0,1
-"Carper, Thomas R.","Delaware","Democratic",1,0,0,0,1
-"Scott, Rick","Florida","Republican",1,0,0,0,1
-"Hirono, Mazie K.","Hawaii","Democratic",1,0,0,0,1
-"Braun, Mike","Indiana","Republican",1,0,0,0,1
-"King, Angus S., Jr.","Maine","Independent",1,0,0,0,1
-"Cardin, Benjamin L.","Maryland","Democratic",1,0,0,0,1
-"Warren, Elizabeth","Massachusetts","Democratic",1,0,0,0,1
-"Stabenow, Debbie","Michigan","Democratic",1,0,0,0,1
-"Klobuchar, Amy","Minnesota","Democratic",1,0,0,0,1
-"Wicker, Roger F.","Mississippi","Republican",1,0,0,0,1
-"Hawley, Josh","Missouri","Republican",1,0,0,0,1
-"Tester, Jon","Montana","Democratic",1,0,0,0,1
-"Fischer, Deb","Nebraska","Republican",1,0,0,0,1
-"Rosen, Jacky","Nevada","Democratic",1,0,0,0,1
-"Helmy, George S.","New Jersey","Democratic",1,0,0,0,1
-"Heinrich, Martin","New Mexico","Democratic",1,0,0,0,1
-"Gillibrand, Kirsten E.","New York","Democratic",1,0,0,0,1
-"Cramer, Kevin","North Dakota","Republican",1,0,0,0,1
-"Brown, Sherrod","Ohio","Democratic",1,0,0,0,1
-"Casey, Robert P., Jr.","Pennsylvania","Democratic",1,0,0,0,1
-"Whitehouse, Sheldon","Rhode Island","Democratic",1,0,0,0,1
-"Blackburn, Marsha","Tennessee","Republican",1,0,0,0,1
-"Cruz, Ted","Texas","Republican",1,0,0,0,1
-"Romney, Mitt","Utah","Republican",1,0,0,0,1
-"Sanders, Bernard","Vermont","Independent",1,0,0,0,1
-"Kaine, Tim","Virginia","Democratic",1,0,0,0,1
-"Cantwell, Maria","Washington","Democratic",1,0,0,0,1
-"Manchin, Joe, III","West Virginia","Independent",1,0,0,0,1
-"Baldwin, Tammy","Wisconsin","Democratic",1,0,0,0,1
-"Barrasso, John","Wyoming","Republican",1,0,0,0,1
-"Tuberville, Tommy","Alabama","Republican",2,0,1,0,0
-"Sullivan, Dan","Alaska","Republican",2,0,1,0,0
-"Cotton, Tom","Arkansas","Republican",2,0,1,0,0
-"Hickenlooper, John W.","Colorado","Democratic",2,1,0,0,0
-"Coons, Christopher A.","Delaware","Democratic",2,1,0,0,0
-"Ossoff, Jon","Georgia","Democratic",2,1,0,0,0
-"Risch, James E.","Idaho","Republican",2,0,1,0,0
-"Durbin, Richard J.","Illinois","Democratic",2,1,0,0,0
-"Ernst, Joni","Iowa","Republican",2,0,1,0,0
-"Marshall, Roger","Kansas","Republican",2,0,1,0,0
-"McConnell, Mitch","Kentucky","Republican",2,0,1,0,0
-"Cassidy, Bill","Louisiana","Republican",2,0,1,0,0
-"Collins, Susan M.","Maine","Republican",2,0,1,0,0
-"Markey, Edward J.","Massachusetts","Democratic",2,1,0,0,0
-"Peters, Gary C.","Michigan","Democratic",2,1,0,0,0
-"Smith, Tina","Minnesota","Democratic",2,1,0,0,0
-"Hyde-Smith, Cindy","Mississippi","Republican",2,0,1,0,0
-"Daines, Steve","Montana","Republican",2,0,1,0,0
-"Ricketts, Pete","Nebraska","Republican",2,0,1,0,0
-"Shaheen, Jeanne","New Hampshire","Democratic",2,1,0,0,0
-"Booker, Cory A.","New Jersey","Democratic",2,1,0,0,0
-"Luján, Ben Ray","New Mexico","Democratic",2,1,0,0,0
-"Tillis, Thom","North Carolina","Republican",2,0,1,0,0
-"Mullin, Markwayne","Oklahoma","Republican",2,0,1,0,0
-"Merkley, Jeff","Oregon","Democratic",2,1,0,0,0
-"Reed, Jack","Rhode Island","Democratic",2,1,0,0,0
-"Graham, Lindsey","South Carolina","Republican",2,0,1,0,0
-"Rounds, Mike","South Dakota","Republican",2,0,1,0,0
-"Hagerty, Bill","Tennessee","Republican",2,0,1,0,0
-"Cornyn, John","Texas","Republican",2,0,1,0,0
-"Warner, Mark R.","Virginia","Democratic",2,1,0,0,0
-"Capito, Shelley Moore","West Virginia","Republican",2,0,1,0,0
-"Lummis, Cynthia M.","Wyoming","Republican",2,0,1,0,0
-"Britt, Katie Boyd","Alabama","Republican",3,0,1,0,0
-"Murkowski, Lisa","Alaska","Republican",3,0,1,0,0
-"Kelly, Mark","Arizona","Democratic",3,1,0,0,0
-"Boozman, John","Arkansas","Republican",3,0,1,0,0
-"Padilla, Alex","California","Democratic",3,1,0,0,0
-"Bennet, Michael F.","Colorado","Democratic",3,1,0,0,0
-"Blumenthal, Richard","Connecticut","Democratic",3,1,0,0,0
-"Rubio, Marco","Florida","Republican",3,0,1,0,0
-"Warnock, Raphael G.","Georgia","Democratic",3,1,0,0,0
-"Schatz, Brian","Hawaii","Democratic",3,1,0,0,0
-"Crapo, Mike","Idaho","Republican",3,0,1,0,0
-"Duckworth, Tammy","Illinois","Democratic",3,1,0,0,0
-"Young, Todd","Indiana","Republican",3,0,1,0,0
-"Grassley, Chuck","Iowa","Republican",3,0,1,0,0
-"Moran, Jerry","Kansas","Republican",3,0,1,0,0
-"Paul, Rand","Kentucky","Republican",3,0,1,0,0
-"Kennedy, John","Louisiana","Republican",3,0,1,0,0
-"Van Hollen, Chris","Maryland","Democratic",3,1,0,0,0
-"Schmitt, Eric","Missouri","Republican",3,0,1,0,0
-"Cortez Masto, Catherine","Nevada","Democratic",3,1,0,0,0
-"Hassan, Margaret Wood","New Hampshire","Democratic",3,1,0,0,0
-"Schumer, Charles E.","New York","Democratic",3,1,0,0,0
-"Budd, Ted","North Carolina","Republican",3,0,1,0,0
-"Hoeven, John","North Dakota","Republican",3,0,1,0,0
-"Vance, J.D.","Ohio","Republican",3,0,1,0,0
-"Lankford, James","Oklahoma","Republican",3,0,1,0,0
-"Wyden, Ron","Oregon","Democratic",3,1,0,0,0
-"Fetterman, John","Pennsylvania","Democratic",3,1,0,0,0
-"Scott, Tim","South Carolina","Republican",3,0,1,0,0
-"Thune, John","South Dakota","Republican",3,0,1,0,0
-"Lee, Mike","Utah","Republican",3,0,1,0,0
-"Welch, Peter","Vermont","Democratic",3,1,0,0,0
-"Murray, Patty","Washington","Democratic",3,1,0,0,0
-"Johnson, Ron","Wisconsin","Republican",3,0,1,0,0
+Name,State,Party,Group,Dem,Rep,Ind,Unallocated
+"Sinema, Kyrsten",Arizona,Independent,1,0,0,0,1
+"Butler, Laphonza R.",California,Democratic,1,0,0,0,1
+"Murphy, Christopher",Connecticut,Democratic,1,0,0,0,1
+"Carper, Thomas R.",Delaware,Democratic,1,0,0,0,1
+"Scott, Rick",Florida,Republican,1,0,0,0,1
+"Hirono, Mazie K.",Hawaii,Democratic,1,0,0,0,1
+"Braun, Mike",Indiana,Republican,1,0,0,0,1
+"King, Angus S., Jr.",Maine,Independent,1,0,0,0,1
+"Cardin, Benjamin L.",Maryland,Democratic,1,0,0,0,1
+"Warren, Elizabeth",Massachusetts,Democratic,1,0,0,0,1
+"Stabenow, Debbie",Michigan,Democratic,1,0,0,0,1
+"Klobuchar, Amy",Minnesota,Democratic,1,0,0,0,1
+"Wicker, Roger F.",Mississippi,Republican,1,0,0,0,1
+"Hawley, Josh",Missouri,Republican,1,0,0,0,1
+"Tester, Jon",Montana,Democratic,1,0,0,0,1
+"Fischer, Deb",Nebraska,Republican,1,0,0,0,1
+"Rosen, Jacky",Nevada,Democratic,1,0,0,0,1
+"Helmy, George S.",New Jersey,Democratic,1,0,0,0,1
+"Heinrich, Martin",New Mexico,Democratic,1,0,0,0,1
+"Gillibrand, Kirsten E.",New York,Democratic,1,0,0,0,1
+"Cramer, Kevin",North Dakota,Republican,1,0,0,0,1
+"Brown, Sherrod",Ohio,Democratic,1,0,0,0,1
+"Casey, Robert P., Jr.",Pennsylvania,Democratic,1,0,0,0,1
+"Whitehouse, Sheldon",Rhode Island,Democratic,1,0,0,0,1
+"Blackburn, Marsha",Tennessee,Republican,1,0,0,0,1
+"Cruz, Ted",Texas,Republican,1,0,0,0,1
+"Romney, Mitt",Utah,Republican,1,0,0,0,1
+"Sanders, Bernard",Vermont,Independent,1,0,0,0,1
+"Kaine, Tim",Virginia,Democratic,1,0,0,0,1
+"Cantwell, Maria",Washington,Democratic,1,0,0,0,1
+"Manchin, Joe, III",West Virginia,Independent,1,0,0,0,1
+"Baldwin, Tammy",Wisconsin,Democratic,1,0,0,0,1
+"Barrasso, John",Wyoming,Republican,1,0,0,0,1
+"Tuberville, Tommy",Alabama,Republican,2,0,1,0,0
+"Sullivan, Dan",Alaska,Republican,2,0,1,0,0
+"Cotton, Tom",Arkansas,Republican,2,0,1,0,0
+"Hickenlooper, John W.",Colorado,Democratic,2,1,0,0,0
+"Coons, Christopher A.",Delaware,Democratic,2,1,0,0,0
+"Ossoff, Jon",Georgia,Democratic,2,1,0,0,0
+"Risch, James E.",Idaho,Republican,2,0,1,0,0
+"Durbin, Richard J.",Illinois,Democratic,2,1,0,0,0
+"Ernst, Joni",Iowa,Republican,2,0,1,0,0
+"Marshall, Roger",Kansas,Republican,2,0,1,0,0
+"McConnell, Mitch",Kentucky,Republican,2,0,1,0,0
+"Cassidy, Bill",Louisiana,Republican,2,0,1,0,0
+"Collins, Susan M.",Maine,Republican,2,0,1,0,0
+"Markey, Edward J.",Massachusetts,Democratic,2,1,0,0,0
+"Peters, Gary C.",Michigan,Democratic,2,1,0,0,0
+"Smith, Tina",Minnesota,Democratic,2,1,0,0,0
+"Hyde-Smith, Cindy",Mississippi,Republican,2,0,1,0,0
+"Daines, Steve",Montana,Republican,2,0,1,0,0
+"Ricketts, Pete",Nebraska,Republican,2,0,1,0,0
+"Shaheen, Jeanne",New Hampshire,Democratic,2,1,0,0,0
+"Booker, Cory A.",New Jersey,Democratic,2,1,0,0,0
+"Luján, Ben Ray",New Mexico,Democratic,2,1,0,0,0
+"Tillis, Thom",North Carolina,Republican,2,0,1,0,0
+"Mullin, Markwayne",Oklahoma,Republican,2,0,1,0,0
+"Merkley, Jeff",Oregon,Democratic,2,1,0,0,0
+"Reed, Jack",Rhode Island,Democratic,2,1,0,0,0
+"Graham, Lindsey",South Carolina,Republican,2,0,1,0,0
+"Rounds, Mike",South Dakota,Republican,2,0,1,0,0
+"Hagerty, Bill",Tennessee,Republican,2,0,1,0,0
+"Cornyn, John",Texas,Republican,2,0,1,0,0
+"Warner, Mark R.",Virginia,Democratic,2,1,0,0,0
+"Capito, Shelley Moore",West Virginia,Republican,2,0,1,0,0
+"Lummis, Cynthia M.",Wyoming,Republican,2,0,1,0,0
+"Britt, Katie Boyd",Alabama,Republican,3,0,1,0,0
+"Murkowski, Lisa",Alaska,Republican,3,0,1,0,0
+"Kelly, Mark",Arizona,Democratic,3,1,0,0,0
+"Boozman, John",Arkansas,Republican,3,0,1,0,0
+"Padilla, Alex",California,Democratic,3,1,0,0,0
+"Bennet, Michael F.",Colorado,Democratic,3,1,0,0,0
+"Blumenthal, Richard",Connecticut,Democratic,3,1,0,0,0
+"Rubio, Marco",Florida,Republican,3,0,1,0,0
+"Warnock, Raphael G.",Georgia,Democratic,3,1,0,0,0
+"Schatz, Brian",Hawaii,Democratic,3,1,0,0,0
+"Crapo, Mike",Idaho,Republican,3,0,1,0,0
+"Duckworth, Tammy",Illinois,Democratic,3,1,0,0,0
+"Young, Todd",Indiana,Republican,3,0,1,0,0
+"Grassley, Chuck",Iowa,Republican,3,0,1,0,0
+"Moran, Jerry",Kansas,Republican,3,0,1,0,0
+"Paul, Rand",Kentucky,Republican,3,0,1,0,0
+"Kennedy, John",Louisiana,Republican,3,0,1,0,0
+"Van Hollen, Chris",Maryland,Democratic,3,1,0,0,0
+"Schmitt, Eric",Missouri,Republican,3,0,1,0,0
+"Cortez Masto, Catherine",Nevada,Democratic,3,1,0,0,0
+"Hassan, Margaret Wood",New Hampshire,Democratic,3,1,0,0,0
+"Schumer, Charles E.",New York,Democratic,3,1,0,0,0
+"Budd, Ted",North Carolina,Republican,3,0,1,0,0
+"Hoeven, John",North Dakota,Republican,3,0,1,0,0
+"Vance, J.D.",Ohio,Republican,3,0,1,0,0
+"Lankford, James",Oklahoma,Republican,3,0,1,0,0
+"Wyden, Ron",Oregon,Democratic,3,1,0,0,0
+"Fetterman, John",Pennsylvania,Democratic,3,1,0,0,0
+"Scott, Tim",South Carolina,Republican,3,0,1,0,0
+"Thune, John",South Dakota,Republican,3,0,1,0,0
+"Lee, Mike",Utah,Republican,3,0,1,0,0
+"Welch, Peter",Vermont,Democratic,3,1,0,0,0
+"Murray, Patty",Washington,Democratic,3,1,0,0,0
+"Johnson, Ron",Wisconsin,Republican,3,0,1,0,0

@@ -6,7 +6,7 @@ output: html_document
 h3 {text-align: center;}
 ```
 
-### **House members, by party**
+## **House members, by party**
 
 ```{r, include=FALSE, warning=FALSE, message=FALSE}
 # Required packages
@@ -17,16 +17,20 @@ if (!require("plotly"))
   install.packages("plotly")
 if (!require("DataEditR"))
   install.packages("DataEditR")
+if (!require("gtExtras"))
+  install.packages("DataEditR")
 
 library(tidyverse)
 library(plotly)
 library(DataEditR)
+library(gtExtras)
 
 # Read data
 
 House <- read_csv("House.csv")
 House <- data_edit(House)
 write_csv(House,"House.csv")
+write_csv(House,"House.csv_latest")
 
 # Totaling members by party
 
@@ -57,4 +61,18 @@ fig
 fig
 ```
 
-[R Markdown Code](https://raw.githubusercontent.com/drkblake/Data/refs/heads/main/House%20Tracker.Rmd){target="_blank"}
+```{r, include=FALSE}
+House_U <- House %>% 
+  filter(Unallocated == 1) %>% 
+  arrange(State, District) %>%
+  select(State, District) %>% 
+  gt() %>% 
+  cols_align(align = "center") %>% 
+  gt_theme_538
+```
+
+### **Unreported races**
+
+```{r, echo=FALSE}
+House_U
+```
