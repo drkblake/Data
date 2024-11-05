@@ -1,0 +1,114 @@
+---
+output: html_document
+---
+
+```{css, echo=FALSE}
+h5 {text-align: center;}
+```
+
+```{r, include=FALSE}
+if (!require("tidyverse"))
+  install.packages("tidyverse")
+if (!require("tidycensus"))
+  install.packages("tidycensus")
+if (!require("sf"))
+  install.packages("sf")
+if (!require("mapview"))
+  install.packages("mapview")
+if (!require("DataEditR"))
+  install.packages("DataEditR")
+if (!require("leaflet"))
+  install.packages("leaflet")
+if (!require("leaflet.extras2"))
+  install.packages("leaflet.extras2")
+if (!require("plotly"))
+  install.packages("plotly")
+if (!require("gtExtras"))
+  install.packages("gtExtras")
+
+library(tidyverse)
+library(tidycensus)
+library(sf)
+library(mapview)
+library(DataEditR)
+library(leaflet)
+library(leafpop)
+library(plotly)
+library(gtExtras)
+
+# Reading files from local computer project folder
+
+TNHouseMap <- st_read("TNHouseMap.shp")
+TNHouseData <- read_csv("TNHouseRaceData.csv")
+
+# Edit / update election data
+
+TNHouseData <- data_edit(TNHouseData)
+write_csv(TNHouseData,"TNHouseRaceData.csv")
+write_csv(TNHouseData,"TNHouseRaceData_latest.csv")
+
+# Merge election and map data
+
+TNHouseWinners <- merge(TNHouseMap,TNHouseData)
+
+# Make the election map
+
+mypalette = colorRampPalette(c("gray","darkblue","darkred"))
+
+# Use this palette if an independent wins
+# mypalette = colorRampPalette(c("gray",
+# "#384B70","#B8001F","#FFD35A"))
+
+TNHouseElectionMap <-
+  mapview(
+    TNHouseWinners,
+    zcol = "Party",
+    col.regions = mypalette,
+    alpha.regions = .8,
+    layer.name = "Party",
+    popup = popupTable(
+      TNHouseWinners,
+      feature.id = FALSE,
+      row.numbers = FALSE,
+      zcol = c(
+        "District",
+        "Party",
+        "Dem",
+        "Rep",
+        "Ind"
+      )
+    )
+  )
+
+# Seats by party
+
+TNHouseWinnersTable <- TNHouseData %>% 
+  group_by(Party) %>% 
+  summarize(Seats = n()) %>% 
+  gt() %>% 
+  cols_align(align = "center") %>% 
+  gt_theme_538
+
+# Show the map
+
+TNHouseElectionMap
+
+# Show the table
+
+TNHouseWinnersTable
+
+```
+
+#### **Tennessee State House**
+
+```{r, echo=FALSE}
+TNHouseElectionMap
+```
+
+<br> <br> <br> <br> <br> <br> <br>
+
+##### **Seats by party**
+
+```{r, echo=FALSE}
+TNHouseWinnersTable
+```

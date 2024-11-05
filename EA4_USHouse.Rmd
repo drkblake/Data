@@ -1,0 +1,90 @@
+---
+output: html_document
+---
+
+```{css, echo=FALSE}
+h5 {text-align: center;}
+```
+
+#### **U.S. House**
+
+```{r, include=FALSE, warning=FALSE, message=FALSE}
+# Required packages
+
+if (!require("tidyverse"))
+  install.packages("tidyverse")
+if (!require("plotly"))
+  install.packages("plotly")
+if (!require("DataEditR"))
+  install.packages("DataEditR")
+if (!require("gtExtras"))
+  install.packages("DataEditR")
+
+library(tidyverse)
+library(plotly)
+library(DataEditR)
+library(gtExtras)
+
+# Read data
+
+House <- read_csv("House.csv")
+House <- data_edit(House)
+write_csv(House,"House.csv")
+write_csv(House,"House.csv_latest")
+
+# Totaling members by party
+
+Dem <- sum(House$Dem)
+Rep <- sum(House$Rep)
+Unallocated <- sum(House$Unallocated)
+
+Party <- c("Dem", "Rep", "Unallocated")
+Members <- c(Dem, Rep, Unallocated)
+ChartData <- data.frame(Party, Members)
+
+# Making the plot
+
+fig <- plot_ly(
+  ChartData,
+  x = ~ Party,
+  y = ~ Members,
+  marker = list(color = c("darkblue", "darkred", "gray")),
+  type = "bar",
+  text = Members,
+  textposition = "auto")
+fig
+
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+fig
+```
+
+```{r, include=FALSE}
+House_U <- House %>% 
+  filter(Unallocated == 1) %>% 
+  arrange(State, District) %>%
+  select(State, District) %>% 
+  gt() %>% 
+  cols_align(align = "center") %>% 
+  gt_theme_538
+```
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+##### <br> Unreported races
+
+```{r, echo=FALSE}
+House_U
+```

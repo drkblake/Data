@@ -1,0 +1,93 @@
+---
+output: html_document
+---
+
+```{css, echo=FALSE}
+h5 {text-align: center;}
+```
+
+#### **U.S. Senate**
+
+```{r, include=FALSE, warning=FALSE, message=FALSE}
+# Required packages
+
+if (!require("tidyverse"))
+  install.packages("tidyverse")
+if (!require("plotly"))
+  install.packages("plotly")
+if (!require("DataEditR"))
+  install.packages("DataEditR")
+if (!require("gtExtras"))
+  install.packages("DataEditR")
+
+library(tidyverse)
+library(plotly)
+library(DataEditR)
+library(gtExtras)
+
+# Read and edit data
+
+Senate <- read_csv("Senate.csv")
+Senate <- data_edit(Senate)
+write_csv(Senate,"Senate.csv")
+write_csv(Senate,"Senate_latest.csv")
+
+# Totaling members by party
+
+Dem <- sum(Senate$Dem)
+Rep <- sum(Senate$Rep)
+Ind <- sum(Senate$Ind)
+Unallocated <- sum(Senate$Unallocated)
+
+Party <- c("Dem", "Rep", "Ind", "Unallocated")
+Members <- c(Dem, Rep, Ind, Unallocated)
+ChartData <- data.frame(Party, Members)
+
+# Making the plot
+
+fig <- plot_ly(
+  ChartData,
+  x = ~ Party,
+  y = ~ Members,
+  marker = list(color = c("darkblue", "darkred", "darkgreen", "gray")),
+  type = "bar",
+  text = Members,
+  textposition = "auto")
+
+# Showing the plot
+
+fig
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+fig
+```
+
+```{r, include=FALSE}
+Senate_U <- Senate %>% 
+  filter(Unallocated == 1) %>% 
+  arrange(State) %>%
+  select(State) %>% 
+  gt() %>% 
+  cols_align(align = "center") %>% 
+  gt_theme_538
+```
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+##### <br> **Unreported races**
+
+```{r, echo=FALSE}
+Senate_U
+```
