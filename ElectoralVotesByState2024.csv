@@ -1,52 +1,52 @@
 Full,State,Votes.to.allocate,Unallocated,Harris,Trump
-Alaska,AK,3,3,0,0
-Alabama,AL,9,9,0,0
-Arkansas,AR,6,6,0,0
-Arizona,AZ,11,11,0,0
-California,CA,54,54,0,0
-Colorado,CO,10,10,0,0
-Connecticut,CT,7,7,0,0
-District of Columbia,DC,3,3,0,0
-Delaware,DE,3,3,0,0
-Florida,FL,30,30,0,0
-Georgia,GA,16,16,0,0
-Hawaii,HI,4,4,0,0
-Iowa,IA,6,6,0,0
-Idaho,ID,4,4,0,0
-Illinois,IL,19,19,0,0
-Indiana,IN,11,11,0,0
-Kansas,KS,6,6,0,0
-Kentucky,KY,8,8,0,0
-Louisiana,LA,8,8,0,0
-Massachusetts,MA,11,11,0,0
-Maryland,MD,10,10,0,0
-Maine,ME,4,4,0,0
-Michigan,MI,15,15,0,0
-Minnesota,MN,10,10,0,0
-Missouri,MO,10,10,0,0
-Mississippi,MS,6,6,0,0
-Montana,MT,4,4,0,0
-North Carolina,NC,16,16,0,0
-North Dakota,ND,3,3,0,0
-Nebraska,NE,5,5,0,0
-New Hampshire,NH,4,4,0,0
-New Jersey,NJ,14,14,0,0
-New Mexico,NM,5,5,0,0
-Nevada,NV,6,6,0,0
-New York,NY,28,28,0,0
-Ohio,OH,17,17,0,0
-Oklahoma,OK,7,7,0,0
-Oregon,OR,8,8,0,0
-Pennsylvania,PA,19,19,0,0
-Rhode Island,RI,4,4,0,0
-South Carolina,SC,9,9,0,0
-South Dakota,SD,3,3,0,0
-Tennessee,TN,11,11,0,0
-Texas,TX,40,40,0,0
-Utah,UT,6,6,0,0
-Virginia,VA,13,13,0,0
-Vermont,VT,3,3,0,0
-Washington,WA,12,12,0,0
-Wisconsin,WI,10,10,0,0
-West Virginia,WV,4,4,0,0
-Wyoming,WY,3,3,0,0
+Alabama,AL,9,0,0,9
+Alaska,AK,3,0,0,3
+Arizona,AZ,11,0,0,11
+Arkansas,AR,6,0,0,6
+California,CA,54,0,54,0
+Colorado,CO,10,0,10,0
+Connecticut,CT,7,0,7,0
+Delaware,DE,3,0,3,0
+District of Columbia,DC,3,0,3,0
+Florida,FL,30,0,0,30
+Georgia,GA,16,0,0,16
+Hawaii,HI,4,0,4,0
+Idaho,ID,4,0,0,4
+Illinois,IL,19,0,19,0
+Indiana,IN,11,0,0,11
+Iowa,IA,6,0,0,6
+Kansas,KS,6,0,0,6
+Kentucky,KY,8,0,0,8
+Louisiana,LA,8,0,0,8
+Maine,ME,4,0,3,1
+Maryland,MD,10,0,10,0
+Massachusetts,MA,11,0,11,0
+Michigan,MI,15,0,0,15
+Minnesota,MN,10,0,10,0
+Mississippi,MS,6,0,0,6
+Missouri,MO,10,0,0,10
+Montana,MT,4,0,0,4
+Nebraska,NE,5,0,1,4
+Nevada,NV,6,0,0,6
+New Hampshire,NH,4,0,4,0
+New Jersey,NJ,14,0,14,0
+New Mexico,NM,5,0,5,0
+New York,NY,28,0,28,0
+North Carolina,NC,16,0,0,16
+North Dakota,ND,3,0,0,3
+Ohio,OH,17,0,0,17
+Oklahoma,OK,7,0,0,7
+Oregon,OR,8,0,8,0
+Pennsylvania,PA,19,0,0,19
+Rhode Island,RI,4,0,4,0
+South Carolina,SC,9,0,0,9
+South Dakota,SD,3,0,0,3
+Tennessee,TN,11,0,0,11
+Texas,TX,40,0,0,40
+Utah,UT,6,0,0,6
+Vermont,VT,3,0,3,0
+Virginia,VA,13,0,13,0
+Washington,WA,12,0,12,0
+West Virginia,WV,4,0,0,4
+Wisconsin,WI,10,0,0,10
+Wyoming,WY,3,0,0,3
