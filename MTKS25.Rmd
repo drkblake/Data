@@ -1,0 +1,644 @@
+---
+title: "Midterm key"
+output: html_document
+---
+
+```{r, include=FALSE}
+
+# Getting and loading required packages
+
+if (!require("tidyverse"))
+  install.packages("tidyverse")
+if (!require("openxlsx"))
+  install.packages("openxlsx")
+if (!require("gtExtras"))
+  install.packages("gtExtras")
+if (!require("leafpop"))
+  install.packages("leafpop")
+if (!require("sf"))
+  install.packages("sf")
+if (!require("mapview"))
+  install.packages("mapview")
+if (!require("RColorBrewer"))
+  install.packages("RColorBrewer")
+if (!require("tidycensus"))
+  install.packages("tidycensus")
+
+library(tidyverse)
+library(openxlsx)
+library(gtExtras)
+library(readxl)
+library(sf)
+library(mapview)
+library(leafpop)
+library(RColorBrewer)
+library(tidycensus)
+
+# Reading data from:
+# https://www.huduser.gov/portal/datasets/fmr/fmr2025/fy2025_safmrs.xlsx
+# Note that you are downloading the 2025 data. We have been working with 2024 data.
+# The data frame should have 51,899 observations of 18 variables
+
+download.file(
+  "https://www.huduser.gov/portal/datasets/fmr/fmr2025/fy2025_safmrs.xlsx",
+  "rent.xlsx",
+  mode = "wb"
+)
+
+FMR <- read_xlsx(path = "rent.xlsx", .name_repair = "universal")
+
+# Making a list of Nashville-area ZIP codes
+
+ZIPList <- c(
+  "37135",
+  "37215",
+  "37064",
+  "37060",
+  "37014",
+  "37122",
+  "37027",
+  "37046",
+  "37221",
+  "37153",
+  "37210",
+  "37202",
+  "37024",
+  "37218",
+  "37062",
+  "37179",
+  "37025",
+  "37206",
+  "37065",
+  "37214",
+  "37067",
+  "37246",
+  "37068",
+  "37167",
+  "37069",
+  "37189",
+  "37070",
+  "37204",
+  "37072",
+  "37208",
+  "37076",
+  "37212",
+  "37080",
+  "37216",
+  "37085",
+  "37020",
+  "37086",
+  "38476",
+  "37089",
+  "37160",
+  "37090",
+  "37174",
+  "37115",
+  "37180",
+  "37116",
+  "37201",
+  "37118",
+  "37203",
+  "37015",
+  "37205",
+  "37127",
+  "37207",
+  "37128",
+  "37209",
+  "37129",
+  "37211",
+  "37130",
+  "37213",
+  "37220",
+  "37037",
+  "37222",
+  "37217",
+  "37228",
+  "37219",
+  "37232",
+  "37013",
+  "37131",
+  "37224",
+  "37132",
+  "37229",
+  "37133",
+  "37236",
+  "37238",
+  "37240",
+  "37243",
+  "37138",
+  "38401",
+  "37143",
+  "37011",
+  "37149"
+)
+
+# Filtering for Nashville-area ZIP codes and
+# selecting columns of interest
+# FMR_Nash data frame should have 80 observations of six variables
+
+FMR_Nash <- FMR %>%
+  filter(ZIP.Code %in% ZIPList) %>%
+  select(ZIP.Code, SAFMR.0BR, SAFMR.1BR, SAFMR.2BR, SAFMR.3BR, SAFMR.4BR) %>%
+  distinct()
+
+# Renaming the columns
+
+colnames(FMR_Nash) <- c("ZIP", "Studio", "BR1", "BR2", "BR3", "BR4")
+
+########################### END OF HINT CODE ################
+
+# Averaging estimates
+
+FMR_Nash <- FMR_Nash %>%
+  mutate(ZIP_Average = (Studio + BR1 + BR2 + BR3 + BR4) / 5)
+
+# Sorting in descending order by ZIP_Average
+
+FMR_Nash <- FMR_Nash %>%
+  arrange(desc(ZIP_Average))
+
+# Averaging ZIP_Average
+
+Average_ZIP_Average <- mean(FMR_Nash$ZIP_Average)
+
+# Categorizing by ZIP_Average
+
+FMR_Nash <- FMR_Nash %>%
+  mutate(
+    Rent_Category = case_when(
+      ZIP_Average > Average_ZIP_Average ~ "Above average",
+      ZIP_Average == Average_ZIP_Average ~ "Average",
+      ZIP_Average < Average_ZIP_Average ~ "Below average",
+      .default = "Error"
+    )
+  )
+
+# Showing the data as a table
+
+FMR_Nash_table <- gt(FMR_Nash) %>%
+  tab_header("Nashville-area FMR, by size and ZIP") %>%
+  cols_align(align = "left") %>%
+  gt_theme_538
+
+FMR_Nash_table
+
+# Grouping and summarizing
+
+Summary_BR2 <- FMR_Nash %>%
+  group_by(Rent_Category) %>%
+  summarize(
+    Count = n(),
+    Minimum = min(BR2),
+    Average = round(mean(BR2), 0),
+    Maximum = max(BR2)
+  )
+
+# Making the table
+
+Summary_BR2_table <- gt(Summary_BR2) %>%
+  tab_header("Two-bedroom stats, by rent category") %>%
+  cols_align(align = "left") %>%
+  gt_theme_538
+
+# Showing the table
+
+Summary_BR2_table
+
+# Downloading the ZIP code map file
+
+download.file(
+  "https://www2.census.gov/geo/tiger/GENZ2020/shp/cb_2020_us_zcta520_500k.zip",
+  "ZCTAs2020.zip"
+)
+
+# Unzipping the ZIP code map file
+
+unzip("ZCTAs2020.zip")
+
+# Loading the ZIP code file into R as "ZCTAMap"
+
+ZCTAMap <- read_sf("cb_2020_us_zcta520_500k.shp")
+
+# Making ZIP a character variable
+
+FMR_Nash$ZIP <- as.character(FMR_Nash$ZIP)
+
+# Joining the files
+
+FMR_Nash_Map <- left_join(FMR_Nash, ZCTAMap, by = c("ZIP" = "ZCTA5CE20"))
+
+# Dropping unneeded columns
+
+FMR_Nash_Map <- FMR_Nash_Map %>%
+  select(-c(AFFGEOID20, GEOID20, NAME20, LSAD20, ALAND20, AWATER20))
+
+# Converting FMR_RuCo_Map
+
+FMR_Nash_Map <- st_as_sf(FMR_Nash_Map)
+
+# Adding Census estimates of rental housing
+# and total housing unit counts
+
+# Transmitting API key
+
+# census_api_key("PasteYourAPIKeyBetweenTheseQuoteMarks")
+
+# Fetching the Census data
+
+Census_Data <- get_acs(
+  geography = "zcta",
+  variables = c("DP04_0047", "DP04_0045"),
+  year = 2023,
+  survey = "acs5",
+  output = "wide",
+  geometry = FALSE
+)
+
+# Making better column names
+
+Census_Data <- Census_Data %>%
+  rename(
+    c(
+      "Rentals" = "DP04_0047E",
+      "Rentals_MOE" = "DP04_0047M",
+      "Households" = "DP04_0045E",
+      "Households_MOE" = "DP04_0045M"
+    )
+  )
+
+# A peek at the data
+
+glimpse(Census_Data)
+
+# Merging FMR_Nash_Map and Census_Data
+
+FMR_Nash_Map <- left_join(FMR_Nash_Map, Census_Data, by = c("ZIP" = "GEOID"))
+
+# Mapping by average rent (ZIP_Average)
+# with custom color palette
+
+ZIP_Map <- mapview(
+  FMR_Nash_Map,
+  zcol = "ZIP_Average",
+  col.regions = brewer.pal(9, "Blues"),
+  layer.name = "Average rent",
+  popup = popupTable(
+    FMR_Nash_Map,
+    feature.id = FALSE,
+    row.numbers = FALSE,
+    zcol = c(
+      "ZIP",
+      "Studio",
+      "BR1",
+      "BR2",
+      "BR3",
+      "BR4",
+      "Rentals",
+      "Rentals_MOE",
+      "Households",
+      "Households_MOE"
+    )
+  )
+)
+
+# Showing the map
+
+ZIP_Map
+
+```
+
+![](images/clipboard-1664924195.png){width="490"}
+
+### Rent in the Nashville area
+
+The cost of renting a home in the Nashville area ranges from \$1,270 for a tiny studio apartment on the area's western fringe to \$4,260 for a four-bedroom home in the posh Oak Hill neighborhood, the latest federal data show.
+
+Below is a breakdown of estimated rents by rental home size for each of 80 major ZIP codes in the Nashville area, followed by a table of summary data for two-bedroom rents and a clickable rent data map. Data come from the U.S. Department of Housing and Urban Development's Small-Area Fair Market Rent program.
+
+**Rent information by ZIP code**
+
+```{r, echo=FALSE}
+
+FMR_Nash_table
+```
+
+**Two-bedroom rent summary table**
+
+```{r, echo=FALSE}
+
+Summary_BR2_table
+```
+
+**Clickable data map**
+
+```{r, echo=FALSE}
+
+ZIP_Map
+```
+
+### Code:
+
+```{r, eval=FALSE}
+
+
+# Getting and loading required packages
+
+if (!require("tidyverse"))
+  install.packages("tidyverse")
+if (!require("openxlsx"))
+  install.packages("openxlsx")
+if (!require("gtExtras"))
+  install.packages("gtExtras")
+if (!require("leafpop"))
+  install.packages("leafpop")
+if (!require("sf"))
+  install.packages("sf")
+if (!require("mapview"))
+  install.packages("mapview")
+if (!require("RColorBrewer"))
+  install.packages("RColorBrewer")
+if (!require("tidycensus"))
+  install.packages("tidycensus")
+
+library(tidyverse)
+library(openxlsx)
+library(gtExtras)
+library(readxl)
+library(sf)
+library(mapview)
+library(leafpop)
+library(RColorBrewer)
+library(tidycensus)
+
+# Reading data from:
+# https://www.huduser.gov/portal/datasets/fmr/fmr2025/fy2025_safmrs.xlsx
+# Note that you are downloading the 2025 data. We have been working with 2024 data.
+# The data frame should have 51,899 observations of 18 variables
+
+download.file(
+  "https://www.huduser.gov/portal/datasets/fmr/fmr2025/fy2025_safmrs.xlsx",
+  "rent.xlsx",
+  mode = "wb"
+)
+
+FMR <- read_xlsx(path = "rent.xlsx", .name_repair = "universal")
+
+# Making a list of Nashville-area ZIP codes
+
+ZIPList <- c(
+  "37135",
+  "37215",
+  "37064",
+  "37060",
+  "37014",
+  "37122",
+  "37027",
+  "37046",
+  "37221",
+  "37153",
+  "37210",
+  "37202",
+  "37024",
+  "37218",
+  "37062",
+  "37179",
+  "37025",
+  "37206",
+  "37065",
+  "37214",
+  "37067",
+  "37246",
+  "37068",
+  "37167",
+  "37069",
+  "37189",
+  "37070",
+  "37204",
+  "37072",
+  "37208",
+  "37076",
+  "37212",
+  "37080",
+  "37216",
+  "37085",
+  "37020",
+  "37086",
+  "38476",
+  "37089",
+  "37160",
+  "37090",
+  "37174",
+  "37115",
+  "37180",
+  "37116",
+  "37201",
+  "37118",
+  "37203",
+  "37015",
+  "37205",
+  "37127",
+  "37207",
+  "37128",
+  "37209",
+  "37129",
+  "37211",
+  "37130",
+  "37213",
+  "37220",
+  "37037",
+  "37222",
+  "37217",
+  "37228",
+  "37219",
+  "37232",
+  "37013",
+  "37131",
+  "37224",
+  "37132",
+  "37229",
+  "37133",
+  "37236",
+  "37238",
+  "37240",
+  "37243",
+  "37138",
+  "38401",
+  "37143",
+  "37011",
+  "37149"
+)
+
+# Filtering for Nashville-area ZIP codes and
+# selecting columns of interest
+# FMR_Nash data frame should have 80 observations of six variables
+
+FMR_Nash <- FMR %>%
+  filter(ZIP.Code %in% ZIPList) %>%
+  select(ZIP.Code, SAFMR.0BR, SAFMR.1BR, SAFMR.2BR, SAFMR.3BR, SAFMR.4BR) %>%
+  distinct()
+
+# Renaming the columns
+
+colnames(FMR_Nash) <- c("ZIP", "Studio", "BR1", "BR2", "BR3", "BR4")
+
+########################### END OF HINT CODE ################
+
+# Averaging estimates
+
+FMR_Nash <- FMR_Nash %>%
+  mutate(ZIP_Average = (Studio + BR1 + BR2 + BR3 + BR4) / 5)
+
+# Sorting in descending order by ZIP_Average
+
+FMR_Nash <- FMR_Nash %>%
+  arrange(desc(ZIP_Average))
+
+# Averaging ZIP_Average
+
+Average_ZIP_Average <- mean(FMR_Nash$ZIP_Average)
+
+# Categorizing by ZIP_Average
+
+FMR_Nash <- FMR_Nash %>%
+  mutate(
+    Rent_Category = case_when(
+      ZIP_Average > Average_ZIP_Average ~ "Above average",
+      ZIP_Average == Average_ZIP_Average ~ "Average",
+      ZIP_Average < Average_ZIP_Average ~ "Below average",
+      .default = "Error"
+    )
+  )
+
+# Showing the data as a table
+
+FMR_Nash_table <- gt(FMR_Nash) %>%
+  tab_header("Nashville-area FMR, by size and ZIP") %>%
+  cols_align(align = "left") %>%
+  gt_theme_538
+
+FMR_Nash_table
+
+# Grouping and summarizing
+
+Summary_BR2 <- FMR_Nash %>%
+  group_by(Rent_Category) %>%
+  summarize(
+    Count = n(),
+    Minimum = min(BR2),
+    Average = round(mean(BR2), 0),
+    Maximum = max(BR2)
+  )
+
+# Making the table
+
+Summary_BR2_table <- gt(Summary_BR2) %>%
+  tab_header("Two-bedroom stats, by rent category") %>%
+  cols_align(align = "left") %>%
+  gt_theme_538
+
+# Showing the table
+
+Summary_BR2_table
+
+# Downloading the ZIP code map file
+
+download.file(
+  "https://www2.census.gov/geo/tiger/GENZ2020/shp/cb_2020_us_zcta520_500k.zip",
+  "ZCTAs2020.zip"
+)
+
+# Unzipping the ZIP code map file
+
+unzip("ZCTAs2020.zip")
+
+# Loading the ZIP code file into R as "ZCTAMap"
+
+ZCTAMap <- read_sf("cb_2020_us_zcta520_500k.shp")
+
+# Making ZIP a character variable
+
+FMR_Nash$ZIP <- as.character(FMR_Nash$ZIP)
+
+# Joining the files
+
+FMR_Nash_Map <- left_join(FMR_Nash, ZCTAMap, by = c("ZIP" = "ZCTA5CE20"))
+
+# Dropping unneeded columns
+
+FMR_Nash_Map <- FMR_Nash_Map %>%
+  select(-c(AFFGEOID20, GEOID20, NAME20, LSAD20, ALAND20, AWATER20))
+
+# Converting FMR_RuCo_Map
+
+FMR_Nash_Map <- st_as_sf(FMR_Nash_Map)
+
+# Adding Census estimates of rental housing
+# and total housing unit counts
+
+# Transmitting API key
+
+# census_api_key("PasteYourAPIKeyBetweenTheseQuoteMarks")
+
+# Fetching the Census data
+
+Census_Data <- get_acs(
+  geography = "zcta",
+  variables = c("DP04_0047", "DP04_0045"),
+  year = 2023,
+  survey = "acs5",
+  output = "wide",
+  geometry = FALSE
+)
+
+# Making better column names
+
+Census_Data <- Census_Data %>%
+  rename(
+    c(
+      "Rentals" = "DP04_0047E",
+      "Rentals_MOE" = "DP04_0047M",
+      "Households" = "DP04_0045E",
+      "Households_MOE" = "DP04_0045M"
+    )
+  )
+
+# A peek at the data
+
+glimpse(Census_Data)
+
+# Merging FMR_Nash_Map and Census_Data
+
+FMR_Nash_Map <- left_join(FMR_Nash_Map, Census_Data, by = c("ZIP" = "GEOID"))
+
+# Mapping by average rent (ZIP_Average)
+# with custom color palette
+
+ZIP_Map <- mapview(
+  FMR_Nash_Map,
+  zcol = "ZIP_Average",
+  col.regions = brewer.pal(9, "Blues"),
+  layer.name = "Average rent",
+  popup = popupTable(
+    FMR_Nash_Map,
+    feature.id = FALSE,
+    row.numbers = FALSE,
+    zcol = c(
+      "ZIP",
+      "Studio",
+      "BR1",
+      "BR2",
+      "BR3",
+      "BR4",
+      "Rentals",
+      "Rentals_MOE",
+      "Households",
+      "Households_MOE"
+    )
+  )
+)
+
+# Showing the map
+
+ZIP_Map
+
+```
