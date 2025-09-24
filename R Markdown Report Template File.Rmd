@@ -1,5 +1,5 @@
 ---
-title: "R Markdown report template"
+title: "Put your title here"
 author: "Put your name here"
 output: html_document
 ---
@@ -27,7 +27,7 @@ output: html_document
 
 (Display any relevant figures or tables from the analysis, interpret the findings, and indicate whether the findings supported the hypothesis.)
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
+```{r, echo=FALSE}
 
 # List the names of the objects you want to display
 ```
