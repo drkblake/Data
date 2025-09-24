@@ -1,0 +1,40 @@
+---
+title: "Put your report name here"
+author: "Put your name here"
+output: html_document
+---
+
+```{r, include=FALSE}
+
+# Paste your complete, edited, tested, working R script here
+```
+
+## **Rationale**
+
+(Write a paragraph summarizing the key points of the theory being applied in this data analysis)
+
+(Write a paragraph explaining what the theory you just described would predict about the the variables in the data file you will be analyzing.)
+
+## **Hypothesis**
+
+(Write a hypothesis describing the pattern you expect to see in the data you will be analyzing)
+
+## **Variables & method**
+
+(Describe each variable used in the analysis, give its measurement level (categorical or continuous) and indicate which variable is being treated as the dependent variable, and which is being treated as the independent variable. This section also should indicate which statistical procedure the analysis used, and how)
+
+## **Results & discussion**
+
+(Display any relevant figures or tables from the analysis, interpret the findings, and indicate whether the findings supported the hypothesis.)
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+# List the names of the objects you want to display
+```
+
+## Code:
+
+```{r, eval=FALSE}
+
+# Paste - again - your complete R script, the same one pasted into the first code chunk, above. Pasting it were will display it.
+```
