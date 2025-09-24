@@ -1,5 +1,5 @@
 ---
-title: "Put your title here"
+title: "Put your report name here"
 author: "Put your name here"
 output: html_document
 ---
