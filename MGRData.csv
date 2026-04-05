@@ -1,69 +1,69 @@
-GEOID,District,MGR,Ownership,Med_Income,Income3
-4703790038,"District 1, Davidson County, Tennessee",1559,80.1,85926,Middle
-4703790228,"District 2, Davidson County, Tennessee",1273,41.4,57200,Bottom
-4703790418,"District 3, Davidson County, Tennessee",1206,69.2,66981,Bottom
-4703790608,"District 4, Davidson County, Tennessee",1821,66,109862,Top
-4703790798,"District 5, Davidson County, Tennessee",1603,43.7,83094,Middle
-4703790988,"District 6, Davidson County, Tennessee",1548,54.8,100752,Middle
-4703791178,"District 7, Davidson County, Tennessee",1481,64.3,84268,Middle
-4703791368,"District 8, Davidson County, Tennessee",1465,55.3,68184,Bottom
-4703791558,"District 9, Davidson County, Tennessee",1170,44.5,51290,Bottom
-4703791748,"District 10, Davidson County, Tennessee",1399,41.2,63090,Bottom
-4703791938,"District 11, Davidson County, Tennessee",1505,68.9,75655,Middle
-4703792128,"District 12, Davidson County, Tennessee",1626,62.6,90183,Middle
-4703792318,"District 13, Davidson County, Tennessee",1372,47.2,62289,Bottom
-4703792508,"District 14, Davidson County, Tennessee",1585,38.8,67390,Bottom
-4703792698,"District 15, Davidson County, Tennessee",1575,63.1,72275,Bottom
-4703792888,"District 16, Davidson County, Tennessee",1503,44.5,70152,Bottom
-4703793078,"District 17, Davidson County, Tennessee",1447,38.3,73141,Bottom
-4703793268,"District 18, Davidson County, Tennessee",1620,44.6,98456,Middle
-4703793458,"District 19, Davidson County, Tennessee",2018,20.4,78125,Middle
-4703793648,"District 20, Davidson County, Tennessee",1625,51,73175,Middle
-4703793838,"District 21, Davidson County, Tennessee",1517,25.4,53163,Bottom
-4703794028,"District 22, Davidson County, Tennessee",1839,59.9,90448,Middle
-4703794218,"District 23, Davidson County, Tennessee",1861,62.8,122201,Top
-4703794408,"District 24, Davidson County, Tennessee",1780,58.2,112813,Top
-4703794598,"District 25, Davidson County, Tennessee",1821,69.3,129511,Top
-4703794940,"District 26, Davidson County, Tennessee",1268,49.4,78460,Middle
-4703795130,"District 27, Davidson County, Tennessee",1539,43.6,65330,Bottom
-4703795320,"District 28, Davidson County, Tennessee",1420,54.7,66823,Bottom
-4703795510,"District 29, Davidson County, Tennessee",1518,56.9,69010,Bottom
-4703795700,"District 30, Davidson County, Tennessee",1436,48,53796,Bottom
-4703795890,"District 31, Davidson County, Tennessee",1750,61.8,77287,Middle
-4703796080,"District 32, Davidson County, Tennessee",1485,32,65091,Bottom
-4703796270,"District 33, Davidson County, Tennessee",1882,73.2,91426,Middle
-4703796460,"District 34, Davidson County, Tennessee",2075,78.4,167813,Top
-4703796650,"District 35, Davidson County, Tennessee",2200,84.2,123164,Top
-4714990150,"District 1, Rutherford County, Tennessee",2038,73.1,90670,Middle
-4714990340,"District 2, Rutherford County, Tennessee",1795,93.7,113618,Top
-4714990530,"District 3, Rutherford County, Tennessee",1435,78.6,102465,Top
-4714990720,"District 4, Rutherford County, Tennessee",1505,69.2,76541,Middle
-4714990910,"District 5, Rutherford County, Tennessee",1673,61.4,71875,Bottom
-4714991100,"District 6, Rutherford County, Tennessee",1584,82.2,99858,Middle
-4714991290,"District 7, Rutherford County, Tennessee",1583,58.8,78531,Middle
-4714991480,"District 8, Rutherford County, Tennessee",1380,86.6,106781,Top
-4714991670,"District 9, Rutherford County, Tennessee",1739,92.9,110625,Top
-4714991860,"District 10, Rutherford County, Tennessee",1887,76.4,99400,Middle
-4714992050,"District 11, Rutherford County, Tennessee",1210,45.1,63170,Bottom
-4714992240,"District 12, Rutherford County, Tennessee",1625,46.1,71907,Bottom
-4714992430,"District 13, Rutherford County, Tennessee",1548,53.9,85947,Middle
-4714992620,"District 14, Rutherford County, Tennessee",1729,74.5,119879,Top
-4714992810,"District 15, Rutherford County, Tennessee",1244,59,87321,Middle
-4714993000,"District 16, Rutherford County, Tennessee",1442,35.7,61545,Bottom
-4714993190,"District 17, Rutherford County, Tennessee",1220,20.2,45955,Bottom
-4714993380,"District 18, Rutherford County, Tennessee",1271,49.3,68258,Bottom
-4714993570,"District 19, Rutherford County, Tennessee",1765,73.3,89030,Middle
-4714993760,"District 20, Rutherford County, Tennessee",1877,69.9,105019,Top
-4714993950,"District 21, Rutherford County, Tennessee",1273,57.3,66551,Bottom
-4718790188,"District 1, Williamson County, Tennessee",1398,82.9,98165,Middle
-4718790378,"District 2, Williamson County, Tennessee",2267,86.8,149080,Top
-4718790568,"District 3, Williamson County, Tennessee",2035,79.3,121242,Top
-4718790758,"District 4, Williamson County, Tennessee",1986,61.6,130607,Top
-4718790948,"District 5, Williamson County, Tennessee",2212,90.8,163988,Top
-4718791138,"District 6, Williamson County, Tennessee",3501,96.5,193273,Top
-4718791328,"District 7, Williamson County, Tennessee",2801,84.7,187123,Top
-4718791518,"District 8, Williamson County, Tennessee",1928,68.5,122778,Top
-4718791708,"District 9, Williamson County, Tennessee",1872,86.3,162262,Top
-4718791898,"District 10, Williamson County, Tennessee",1866,71.8,124464,Top
-4718792088,"District 11, Williamson County, Tennessee",1767,71.4,106331,Top
-4718792278,"District 12, Williamson County, Tennessee",1948,67.2,122154,Top
+GEOID,District,MGR,Ownership,Ownership4,Med_Income,Income3
+4703790038,"District 1, Davidson County, Tennessee",1559,80.1,76 or more,85926,Middle
+4703790228,"District 2, Davidson County, Tennessee",1273,41.4,26–50,57200,Bottom
+4703790418,"District 3, Davidson County, Tennessee",1206,69.2,51–75,66981,Bottom
+4703790608,"District 4, Davidson County, Tennessee",1821,66,51–75,109862,Top
+4703790798,"District 5, Davidson County, Tennessee",1603,43.7,26–50,83094,Middle
+4703790988,"District 6, Davidson County, Tennessee",1548,54.8,51–75,100752,Middle
+4703791178,"District 7, Davidson County, Tennessee",1481,64.3,51–75,84268,Middle
+4703791368,"District 8, Davidson County, Tennessee",1465,55.3,51–75,68184,Bottom
+4703791558,"District 9, Davidson County, Tennessee",1170,44.5,26–50,51290,Bottom
+4703791748,"District 10, Davidson County, Tennessee",1399,41.2,26–50,63090,Bottom
+4703791938,"District 11, Davidson County, Tennessee",1505,68.9,51–75,75655,Middle
+4703792128,"District 12, Davidson County, Tennessee",1626,62.6,51–75,90183,Middle
+4703792318,"District 13, Davidson County, Tennessee",1372,47.2,26–50,62289,Bottom
+4703792508,"District 14, Davidson County, Tennessee",1585,38.8,26–50,67390,Bottom
+4703792698,"District 15, Davidson County, Tennessee",1575,63.1,51–75,72275,Bottom
+4703792888,"District 16, Davidson County, Tennessee",1503,44.5,26–50,70152,Bottom
+4703793078,"District 17, Davidson County, Tennessee",1447,38.3,26–50,73141,Bottom
+4703793268,"District 18, Davidson County, Tennessee",1620,44.6,26–50,98456,Middle
+4703793458,"District 19, Davidson County, Tennessee",2018,20.4,0-25,78125,Middle
+4703793648,"District 20, Davidson County, Tennessee",1625,51,51–75,73175,Middle
+4703793838,"District 21, Davidson County, Tennessee",1517,25.4,26–50,53163,Bottom
+4703794028,"District 22, Davidson County, Tennessee",1839,59.9,51–75,90448,Middle
+4703794218,"District 23, Davidson County, Tennessee",1861,62.8,51–75,122201,Top
+4703794408,"District 24, Davidson County, Tennessee",1780,58.2,51–75,112813,Top
+4703794598,"District 25, Davidson County, Tennessee",1821,69.3,51–75,129511,Top
+4703794940,"District 26, Davidson County, Tennessee",1268,49.4,26–50,78460,Middle
+4703795130,"District 27, Davidson County, Tennessee",1539,43.6,26–50,65330,Bottom
+4703795320,"District 28, Davidson County, Tennessee",1420,54.7,51–75,66823,Bottom
+4703795510,"District 29, Davidson County, Tennessee",1518,56.9,51–75,69010,Bottom
+4703795700,"District 30, Davidson County, Tennessee",1436,48,26–50,53796,Bottom
+4703795890,"District 31, Davidson County, Tennessee",1750,61.8,51–75,77287,Middle
+4703796080,"District 32, Davidson County, Tennessee",1485,32,26–50,65091,Bottom
+4703796270,"District 33, Davidson County, Tennessee",1882,73.2,51–75,91426,Middle
+4703796460,"District 34, Davidson County, Tennessee",2075,78.4,76 or more,167813,Top
+4703796650,"District 35, Davidson County, Tennessee",2200,84.2,76 or more,123164,Top
+4714990150,"District 1, Rutherford County, Tennessee",2038,73.1,51–75,90670,Middle
+4714990340,"District 2, Rutherford County, Tennessee",1795,93.7,76 or more,113618,Top
+4714990530,"District 3, Rutherford County, Tennessee",1435,78.6,76 or more,102465,Top
+4714990720,"District 4, Rutherford County, Tennessee",1505,69.2,51–75,76541,Middle
+4714990910,"District 5, Rutherford County, Tennessee",1673,61.4,51–75,71875,Bottom
+4714991100,"District 6, Rutherford County, Tennessee",1584,82.2,76 or more,99858,Middle
+4714991290,"District 7, Rutherford County, Tennessee",1583,58.8,51–75,78531,Middle
+4714991480,"District 8, Rutherford County, Tennessee",1380,86.6,76 or more,106781,Top
+4714991670,"District 9, Rutherford County, Tennessee",1739,92.9,76 or more,110625,Top
+4714991860,"District 10, Rutherford County, Tennessee",1887,76.4,76 or more,99400,Middle
+4714992050,"District 11, Rutherford County, Tennessee",1210,45.1,26–50,63170,Bottom
+4714992240,"District 12, Rutherford County, Tennessee",1625,46.1,26–50,71907,Bottom
+4714992430,"District 13, Rutherford County, Tennessee",1548,53.9,51–75,85947,Middle
+4714992620,"District 14, Rutherford County, Tennessee",1729,74.5,51–75,119879,Top
+4714992810,"District 15, Rutherford County, Tennessee",1244,59,51–75,87321,Middle
+4714993000,"District 16, Rutherford County, Tennessee",1442,35.7,26–50,61545,Bottom
+4714993190,"District 17, Rutherford County, Tennessee",1220,20.2,0-25,45955,Bottom
+4714993380,"District 18, Rutherford County, Tennessee",1271,49.3,26–50,68258,Bottom
+4714993570,"District 19, Rutherford County, Tennessee",1765,73.3,51–75,89030,Middle
+4714993760,"District 20, Rutherford County, Tennessee",1877,69.9,51–75,105019,Top
+4714993950,"District 21, Rutherford County, Tennessee",1273,57.3,51–75,66551,Bottom
+4718790188,"District 1, Williamson County, Tennessee",1398,82.9,76 or more,98165,Middle
+4718790378,"District 2, Williamson County, Tennessee",2267,86.8,76 or more,149080,Top
+4718790568,"District 3, Williamson County, Tennessee",2035,79.3,76 or more,121242,Top
+4718790758,"District 4, Williamson County, Tennessee",1986,61.6,51–75,130607,Top
+4718790948,"District 5, Williamson County, Tennessee",2212,90.8,76 or more,163988,Top
+4718791138,"District 6, Williamson County, Tennessee",3501,96.5,76 or more,193273,Top
+4718791328,"District 7, Williamson County, Tennessee",2801,84.7,76 or more,187123,Top
+4718791518,"District 8, Williamson County, Tennessee",1928,68.5,51–75,122778,Top
+4718791708,"District 9, Williamson County, Tennessee",1872,86.3,76 or more,162262,Top
+4718791898,"District 10, Williamson County, Tennessee",1866,71.8,51–75,124464,Top
+4718792088,"District 11, Williamson County, Tennessee",1767,71.4,51–75,106331,Top
+4718792278,"District 12, Williamson County, Tennessee",1948,67.2,51–75,122154,Top
